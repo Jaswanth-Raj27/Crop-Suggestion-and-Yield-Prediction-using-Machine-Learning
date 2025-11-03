@@ -1,0 +1,743 @@
+state,district,soil_type,pest_problem,N,P,K,temperature,humidity,ph,rainfall,crop,yield_tons_per_acre,profit_or_loss_in_rupees
+West Bengal,Burdwan,Alluvial,Brown planthopper,88,40,43,26.54,84.15,6.62,215.18,rice,2.5,15000
+Punjab,Amritsar,Alluvial,Aphids,120,45,40,16.89,61.2,6.58,78.93,wheat,1.8,11000
+Maharashtra,Pune,Black,Stem borer,80,60,50,29.1,65.8,7.1,130.4,maize,1.5,8500
+Karnataka,Bengaluru,Laterite,Leaf rust,115,75,90,21.5,80.1,6.0,155.6,coffee,1.2,18000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,110,65,70,30.2,72.3,6.8,145.7,sugarcane,3.5,25000
+West Bengal,Darjeeling,Laterite,Brown planthopper,105,45,45,18.7,92.5,5.5,230.1,rice,2.8,17500
+Punjab,Ludhiana,Alluvial,Aphids,125,50,45,17.2,63.4,6.65,82.5,wheat,1.9,11500
+Maharashtra,Nagpur,Black,Stem borer,85,65,55,30.5,68.9,7.2,140.2,maize,1.6,9000
+Karnataka,Mysuru,Laterite,Leaf rust,120,80,95,22.1,81.2,6.1,160.8,coffee,1.3,19000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,115,70,75,31.1,75.1,6.9,150.9,sugarcane,3.6,26000
+West Bengal,Kolkata,Alluvial,Brown planthopper,90,42,44,27.1,85.3,6.55,220.8,rice,2.6,15500
+Punjab,Jalandhar,Alluvial,Aphids,122,48,42,16.95,62.1,6.6,80.5,wheat,1.85,11250
+Maharashtra,Nashik,Black,Stem borer,82,62,52,29.4,66.5,7.15,135.8,maize,1.55,8750
+Karnataka,Mangaluru,Laterite,Leaf rust,118,78,92,23.5,82.8,6.05,170.3,coffee,1.4,20000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,112,68,72,30.8,74.5,6.85,148.2,sugarcane,3.55,25500
+West Bengal,Murshidabad,Alluvial,Brown planthopper,95,45,48,27.5,86.2,6.6,225.5,rice,2.7,16000
+Punjab,Patiala,Alluvial,Aphids,128,52,47,17.4,64.3,6.7,85.1,wheat,1.95,11750
+Maharashtra,Aurangabad,Black,Stem borer,88,68,58,30.8,69.5,7.25,145.4,maize,1.65,9250
+Karnataka,Hubballi,Laterite,Leaf rust,122,82,98,22.5,81.8,6.15,165.5,coffee,1.35,19500
+Uttar Pradesh,Agra,Alluvial,Stem borer,118,72,78,31.5,76.2,7.0,155.1,sugarcane,3.7,26500
+West Bengal,Malda,Alluvial,Brown planthopper,92,41,45,26.8,84.5,6.58,218.4,rice,2.55,15250
+Punjab,Chandigarh,Alluvial,Aphids,121,46,41,17.1,61.8,6.63,79.8,wheat,1.82,11100
+Maharashtra,Kolhapur,Black,Stem borer,81,61,51,29.3,66.1,7.12,132.7,maize,1.52,8600
+Karnataka,Ballari,Laterite,Leaf rust,117,76,91,21.8,80.5,6.02,158.2,coffee,1.25,18500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,113,66,71,30.5,73.8,6.88,147.3,sugarcane,3.65,25750
+West Bengal,Bankura,Alluvial,Brown planthopper,91,44,46,27.3,85.8,6.59,222.9,rice,2.65,15750
+Punjab,Firozpur,Alluvial,Aphids,124,49,43,17.3,62.9,6.68,81.8,wheat,1.88,11400
+Maharashtra,Jalgaon,Black,Stem borer,84,64,54,29.9,67.3,7.18,138.6,maize,1.62,8900
+Karnataka,Shivamogga,Laterite,Leaf rust,121,81,96,22.3,81.5,6.12,162.7,coffee,1.32,19250
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,116,71,76,31.3,75.7,6.95,152.4,sugarcane,3.68,26250
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,94,46,47,27.8,86.5,6.61,228.1,rice,2.75,16250
+Punjab,Sangrur,Alluvial,Aphids,126,51,46,17.5,63.9,6.72,85.1,wheat,1.92,11600
+Maharashtra,Satara,Black,Stem borer,86,66,56,30.1,69.2,7.22,142.9,maize,1.68,9100
+Karnataka,Chikmagalur,Laterite,Leaf rust,124,83,99,22.8,82.1,6.18,167.8,coffee,1.38,19750
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,119,73,79,31.7,76.5,7.05,156.2,sugarcane,3.75,26750
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,96,48,49,28.1,87.1,6.63,231.5,rice,2.85,16500
+Punjab,Bathinda,Alluvial,Aphids,127,53,48,17.6,64.8,6.75,86.8,wheat,1.98,11900
+Maharashtra,Solapur,Black,Stem borer,89,69,59,31.1,69.8,7.28,147.7,maize,1.7,9300
+Karnataka,Kodagu,Laterite,Leaf rust,125,84,101,23.1,82.4,6.2,169.9,coffee,1.42,20250
+Uttar Pradesh,Meerut,Alluvial,Stem borer,117,74,77,31.9,76.9,7.1,158.4,sugarcane,3.8,27000
+West Bengal,Hooghly,Alluvial,Brown planthopper,97,49,50,28.5,87.5,6.65,235.2,rice,2.9,16750
+Punjab,Pathankot,Alluvial,Aphids,129,54,49,17.8,65.2,6.78,88.4,wheat,2.0,12000
+Maharashtra,Thane,Black,Stem borer,90,70,60,31.4,70.2,7.3,149.8,maize,1.72,9400
+Karnataka,Hassan,Laterite,Leaf rust,126,85,102,23.8,82.7,6.25,172.5,coffee,1.45,20500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,121,76,80,32.1,77.3,7.15,160.1,sugarcane,3.85,27250
+West Bengal,Nadia,Alluvial,Brown planthopper,98,50,51,28.8,87.8,6.68,238.9,rice,2.95,17000
+Punjab,Hoshiarpur,Alluvial,Aphids,130,55,50,18.0,65.5,6.8,90.1,wheat,2.05,12250
+Maharashtra,Pune,Black,Stem borer,92,72,62,29.1,65.8,7.1,130.4,maize,1.75,9500
+Karnataka,Bengaluru,Laterite,Leaf rust,128,87,104,21.5,80.1,6.0,155.6,coffee,1.5,21000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,123,78,82,30.2,72.3,6.8,145.7,sugarcane,3.9,27500
+West Bengal,Purulia,Alluvial,Brown planthopper,99,52,52,29.0,88.2,6.7,242.3,rice,3.0,17250
+Punjab,Rupnagar,Alluvial,Aphids,132,56,51,18.2,65.9,6.82,91.8,wheat,2.1,12500
+Maharashtra,Nagpur,Black,Stem borer,94,74,64,30.5,68.9,7.2,140.2,maize,1.78,9600
+Karnataka,Mysuru,Laterite,Leaf rust,130,89,106,22.1,81.2,6.1,160.8,coffee,1.55,21500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,125,80,84,31.1,75.1,6.9,150.9,sugarcane,3.95,27750
+West Bengal,Hooghly,Alluvial,Brown planthopper,100,54,53,29.3,88.5,6.72,245.8,rice,3.1,17500
+Punjab,Firozpur,Alluvial,Aphids,134,58,52,18.4,66.3,6.85,93.5,wheat,2.15,12750
+Maharashtra,Nashik,Black,Stem borer,96,76,66,29.4,66.5,7.15,135.8,maize,1.8,9700
+Karnataka,Mangaluru,Laterite,Leaf rust,132,91,108,23.5,82.8,6.05,170.3,coffee,1.6,22000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,127,82,86,30.8,74.5,6.85,148.2,sugarcane,4.0,28000
+West Bengal,Howrah,Alluvial,Brown planthopper,102,56,54,29.6,88.8,6.75,249.2,rice,3.15,17750
+Punjab,Bathinda,Alluvial,Aphids,136,60,53,18.6,66.7,6.88,95.2,wheat,2.2,13000
+Maharashtra,Aurangabad,Black,Stem borer,98,78,68,30.8,69.5,7.25,145.4,maize,1.82,9800
+Karnataka,Hubballi,Laterite,Leaf rust,134,93,110,22.5,81.8,6.15,165.5,coffee,1.65,22500
+Uttar Pradesh,Agra,Alluvial,Stem borer,129,84,88,31.5,76.2,7.0,155.1,sugarcane,4.05,28250
+West Bengal,Nadia,Alluvial,Brown planthopper,104,58,55,29.9,89.1,6.78,252.7,rice,3.2,18000
+Punjab,Amritsar,Alluvial,Aphids,138,62,54,18.8,67.1,6.9,96.9,wheat,2.25,13250
+Maharashtra,Kolhapur,Black,Stem borer,100,80,70,29.3,66.1,7.12,132.7,maize,1.85,9900
+Karnataka,Ballari,Laterite,Leaf rust,136,95,112,21.8,80.5,6.02,158.2,coffee,1.7,23000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,131,86,90,30.5,73.8,6.88,147.3,sugarcane,4.1,28500
+West Bengal,Purulia,Alluvial,Brown planthopper,106,60,56,30.2,89.4,6.8,256.1,rice,3.25,18250
+Punjab,Ludhiana,Alluvial,Aphids,140,64,55,19.0,67.5,6.92,98.6,wheat,2.3,13500
+Maharashtra,Jalgaon,Black,Stem borer,102,82,72,29.9,67.3,7.18,138.6,maize,1.88,10000
+Karnataka,Shivamogga,Laterite,Leaf rust,138,97,114,22.3,81.5,6.12,162.7,coffee,1.75,23500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,133,88,92,31.3,75.7,6.95,152.4,sugarcane,4.15,28750
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,108,62,57,30.5,89.7,6.82,259.6,rice,3.3,18500
+Punjab,Jalandhar,Alluvial,Aphids,142,66,56,19.2,67.9,6.95,100.3,wheat,2.35,13750
+Maharashtra,Satara,Black,Stem borer,104,84,74,30.1,69.2,7.22,142.9,maize,1.9,10100
+Karnataka,Chikmagalur,Laterite,Leaf rust,140,99,116,22.8,82.1,6.18,167.8,coffee,1.8,24000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,135,90,94,31.7,76.5,7.05,156.2,sugarcane,4.2,29000
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,110,64,58,30.8,90.0,6.85,263.0,rice,3.35,18750
+Punjab,Bathinda,Alluvial,Aphids,144,68,57,19.4,68.3,6.98,102.0,wheat,2.4,14000
+Maharashtra,Solapur,Black,Stem borer,106,86,76,31.1,69.8,7.28,147.7,maize,1.92,10200
+Karnataka,Kodagu,Laterite,Leaf rust,142,101,118,23.1,82.4,6.2,169.9,coffee,1.85,24500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,137,92,96,31.9,76.9,7.1,158.4,sugarcane,4.25,29250
+West Bengal,Hooghly,Alluvial,Brown planthopper,112,66,59,31.1,90.3,6.88,266.5,rice,3.4,19000
+Punjab,Pathankot,Alluvial,Aphids,146,70,58,19.6,68.7,7.0,103.7,wheat,2.45,14250
+Maharashtra,Thane,Black,Stem borer,108,88,78,31.4,70.2,7.3,149.8,maize,1.95,10300
+Karnataka,Hassan,Laterite,Leaf rust,144,103,120,23.8,82.7,6.25,172.5,coffee,1.9,25000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,139,94,98,32.1,77.3,7.15,160.1,sugarcane,4.3,29500
+West Bengal,Nadia,Alluvial,Brown planthopper,114,68,60,31.4,90.6,6.9,269.9,rice,3.45,19250
+Punjab,Hoshiarpur,Alluvial,Aphids,148,72,59,19.8,69.1,7.02,105.4,wheat,2.5,14500
+Maharashtra,Pune,Black,Stem borer,110,90,80,29.1,65.8,7.1,130.4,maize,1.98,10400
+Karnataka,Bengaluru,Laterite,Leaf rust,146,105,122,21.5,80.1,6.0,155.6,coffee,1.95,25500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,141,96,100,30.2,72.3,6.8,145.7,sugarcane,4.35,29750
+West Bengal,Purulia,Alluvial,Brown planthopper,116,70,61,31.7,90.9,6.92,273.4,rice,3.5,19500
+Punjab,Rupnagar,Alluvial,Aphids,150,74,60,20.0,69.5,7.05,107.1,wheat,2.55,14750
+Maharashtra,Nagpur,Black,Stem borer,112,92,82,30.5,68.9,7.2,140.2,maize,2.0,10500
+Karnataka,Mysuru,Laterite,Leaf rust,148,107,124,22.1,81.2,6.1,160.8,coffee,2.0,26000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,143,98,102,31.1,75.1,6.9,150.9,sugarcane,4.4,30000
+West Bengal,Hooghly,Alluvial,Brown planthopper,118,72,62,32.0,91.2,6.95,276.9,rice,3.55,19750
+Punjab,Jalandhar,Alluvial,Aphids,152,76,61,20.2,69.9,7.08,108.8,wheat,2.6,15000
+Maharashtra,Nashik,Black,Stem borer,114,94,84,29.4,66.5,7.15,135.8,maize,2.05,10600
+Karnataka,Mangaluru,Laterite,Leaf rust,150,109,126,23.5,82.8,6.05,170.3,coffee,2.05,26500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,145,100,104,30.8,74.5,6.85,148.2,sugarcane,4.45,30250
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,120,74,63,32.3,91.5,6.98,280.4,rice,3.6,20000
+Punjab,Bathinda,Alluvial,Aphids,154,78,62,20.4,70.3,7.1,110.5,wheat,2.65,15250
+Maharashtra,Aurangabad,Black,Stem borer,116,96,86,30.8,69.5,7.25,145.4,maize,2.1,10700
+Karnataka,Hubballi,Laterite,Leaf rust,152,111,128,22.5,81.8,6.15,165.5,coffee,2.1,27000
+Uttar Pradesh,Agra,Alluvial,Stem borer,147,102,106,31.5,76.2,7.0,155.1,sugarcane,4.5,30500
+West Bengal,Hooghly,Alluvial,Brown planthopper,122,76,64,32.6,91.8,7.0,283.9,rice,3.65,20250
+Punjab,Pathankot,Alluvial,Aphids,156,80,63,20.6,70.7,7.12,112.2,wheat,2.7,15500
+Maharashtra,Kolhapur,Black,Stem borer,118,98,88,29.3,66.1,7.12,132.7,maize,2.12,10800
+Karnataka,Ballari,Laterite,Leaf rust,154,113,130,21.8,80.5,6.02,158.2,coffee,2.15,27500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,149,104,108,30.5,73.8,6.88,147.3,sugarcane,4.55,30750
+West Bengal,Nadia,Alluvial,Brown planthopper,124,78,65,32.9,92.1,7.02,287.4,rice,3.7,20500
+Punjab,Hoshiarpur,Alluvial,Aphids,158,82,64,20.8,71.1,7.15,113.9,wheat,2.75,15750
+Maharashtra,Jalgaon,Black,Stem borer,120,100,90,29.9,67.3,7.18,138.6,maize,2.15,10900
+Karnataka,Shivamogga,Laterite,Leaf rust,156,115,132,22.3,81.5,6.12,162.7,coffee,2.2,28000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,151,106,110,31.3,75.7,6.95,152.4,sugarcane,4.6,31000
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,126,80,66,33.2,92.4,7.05,290.9,rice,3.75,20750
+Punjab,Jalandhar,Alluvial,Aphids,160,84,65,21.0,71.5,7.18,115.6,wheat,2.8,16000
+Maharashtra,Satara,Black,Stem borer,122,102,92,30.1,69.2,7.22,142.9,maize,2.18,11000
+Karnataka,Chikmagalur,Laterite,Leaf rust,158,117,134,22.8,82.1,6.18,167.8,coffee,2.25,28500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,153,108,112,31.7,76.5,7.05,156.2,sugarcane,4.65,31250
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,128,82,67,33.5,92.7,7.08,294.4,rice,3.8,21000
+Punjab,Bathinda,Alluvial,Aphids,162,86,66,21.2,71.9,7.2,117.3,wheat,2.85,16250
+Maharashtra,Solapur,Black,Stem borer,124,104,94,31.1,69.8,7.28,147.7,maize,2.2,11100
+Karnataka,Kodagu,Laterite,Leaf rust,160,119,136,23.1,82.4,6.2,169.9,coffee,2.3,29000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,155,110,114,31.9,76.9,7.1,158.4,sugarcane,4.7,31500
+West Bengal,Hooghly,Alluvial,Brown planthopper,130,84,68,33.8,93.0,7.1,297.9,rice,3.85,21250
+Punjab,Pathankot,Alluvial,Aphids,164,88,67,21.4,72.3,7.22,119.0,wheat,2.9,16500
+Maharashtra,Thane,Black,Stem borer,126,106,96,31.4,70.2,7.3,149.8,maize,2.22,11200
+Karnataka,Hassan,Laterite,Leaf rust,162,121,138,23.8,82.7,6.25,172.5,coffee,2.35,29500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,157,112,116,32.1,77.3,7.15,160.1,sugarcane,4.75,31750
+West Bengal,Nadia,Alluvial,Brown planthopper,132,86,69,34.1,93.3,7.12,301.4,rice,3.9,21500
+Punjab,Hoshiarpur,Alluvial,Aphids,166,90,68,21.6,72.7,7.25,120.7,wheat,2.95,16750
+Maharashtra,Pune,Black,Stem borer,128,108,98,29.1,65.8,7.1,130.4,maize,2.25,11300
+Karnataka,Bengaluru,Laterite,Leaf rust,164,123,140,21.5,80.1,6.0,155.6,coffee,2.4,30000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,159,114,118,30.2,72.3,6.8,145.7,sugarcane,4.8,32000
+West Bengal,Purulia,Alluvial,Brown planthopper,134,88,70,34.4,93.6,7.15,304.9,rice,3.95,21750
+Punjab,Rupnagar,Alluvial,Aphids,168,92,69,21.8,73.1,7.28,122.4,wheat,3.0,17000
+Maharashtra,Nagpur,Black,Stem borer,130,110,100,30.5,68.9,7.2,140.2,maize,2.28,11400
+Karnataka,Mysuru,Laterite,Leaf rust,166,125,142,22.1,81.2,6.1,160.8,coffee,2.45,30500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,161,116,120,31.1,75.1,6.9,150.9,sugarcane,4.85,32250
+West Bengal,Hooghly,Alluvial,Brown planthopper,136,90,71,34.7,93.9,7.18,308.4,rice,4.0,22000
+Punjab,Firozpur,Alluvial,Aphids,170,94,70,22.0,73.5,7.3,124.1,wheat,3.05,17250
+Maharashtra,Nashik,Black,Stem borer,132,112,102,29.4,66.5,7.15,135.8,maize,2.3,11500
+Karnataka,Mangaluru,Laterite,Leaf rust,168,127,144,23.5,82.8,6.05,170.3,coffee,2.5,31000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,163,118,122,30.8,74.5,6.85,148.2,sugarcane,4.9,32500
+West Bengal,Howrah,Alluvial,Brown planthopper,138,92,72,35.0,94.2,7.2,311.9,rice,4.05,22250
+Punjab,Bathinda,Alluvial,Aphids,172,96,71,22.2,73.9,7.32,125.8,wheat,3.1,17500
+Maharashtra,Aurangabad,Black,Stem borer,134,114,104,30.8,69.5,7.25,145.4,maize,2.32,11600
+Karnataka,Hubballi,Laterite,Leaf rust,170,129,146,22.5,81.8,6.15,165.5,coffee,2.55,31500
+Uttar Pradesh,Agra,Alluvial,Stem borer,165,120,124,31.5,76.2,7.0,155.1,sugarcane,4.95,32750
+West Bengal,Nadia,Alluvial,Brown planthopper,140,94,73,35.3,94.5,7.22,315.4,rice,4.1,22500
+Punjab,Amritsar,Alluvial,Aphids,174,98,72,22.4,74.3,7.35,127.5,wheat,3.15,17750
+Maharashtra,Kolhapur,Black,Stem borer,136,116,106,29.3,66.1,7.12,132.7,maize,2.35,11700
+Karnataka,Ballari,Laterite,Leaf rust,172,131,148,21.8,80.5,6.02,158.2,coffee,2.6,32000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,167,122,126,30.5,73.8,6.88,147.3,sugarcane,5.0,33000
+West Bengal,Purulia,Alluvial,Brown planthopper,142,96,74,35.6,94.8,7.25,318.9,rice,4.15,22750
+Punjab,Ludhiana,Alluvial,Aphids,176,100,73,22.6,74.7,7.38,129.2,wheat,3.2,18000
+Maharashtra,Jalgaon,Black,Stem borer,138,118,108,29.9,67.3,7.18,138.6,maize,2.38,11800
+Karnataka,Shivamogga,Laterite,Leaf rust,174,133,150,22.3,81.5,6.12,162.7,coffee,2.65,32500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,169,124,128,31.3,75.7,6.95,152.4,sugarcane,5.05,33250
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,144,98,75,35.9,95.1,7.28,322.4,rice,4.2,23000
+Punjab,Jalandhar,Alluvial,Aphids,178,102,74,22.8,75.1,7.4,130.9,wheat,3.25,18250
+Maharashtra,Satara,Black,Stem borer,140,120,110,30.1,69.2,7.22,142.9,maize,2.4,11900
+Karnataka,Chikmagalur,Laterite,Leaf rust,176,135,152,22.8,82.1,6.18,167.8,coffee,2.7,33000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,171,126,130,31.7,76.5,7.05,156.2,sugarcane,5.1,33500
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,146,100,76,36.2,95.4,7.3,325.9,rice,4.25,23250
+Punjab,Bathinda,Alluvial,Aphids,180,104,75,23.0,75.5,7.42,132.6,wheat,3.3,18500
+Maharashtra,Solapur,Black,Stem borer,142,122,112,31.1,69.8,7.28,147.7,maize,2.42,12000
+Karnataka,Kodagu,Laterite,Leaf rust,178,137,154,23.1,82.4,6.2,169.9,coffee,2.75,33500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,173,128,132,31.9,76.9,7.1,158.4,sugarcane,5.15,33750
+West Bengal,Hooghly,Alluvial,Brown planthopper,148,102,77,36.5,95.7,7.32,329.4,rice,4.3,23500
+Punjab,Pathankot,Alluvial,Aphids,182,106,76,23.2,75.9,7.45,134.3,wheat,3.35,18750
+Maharashtra,Thane,Black,Stem borer,144,124,114,31.4,70.2,7.3,149.8,maize,2.45,12100
+Karnataka,Hassan,Laterite,Leaf rust,180,139,156,23.8,82.7,6.25,172.5,coffee,2.8,34000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,175,130,134,32.1,77.3,7.15,160.1,sugarcane,5.2,34000
+West Bengal,Nadia,Alluvial,Brown planthopper,150,104,78,36.8,96.0,7.35,332.9,rice,4.35,23750
+Punjab,Hoshiarpur,Alluvial,Aphids,184,108,77,23.4,76.3,7.48,136.0,wheat,3.4,19000
+Maharashtra,Pune,Black,Stem borer,146,126,116,29.1,65.8,7.1,130.4,maize,2.48,12200
+Karnataka,Bengaluru,Laterite,Leaf rust,182,141,158,21.5,80.1,6.0,155.6,coffee,2.85,34500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,177,132,136,30.2,72.3,6.8,145.7,sugarcane,5.25,34250
+West Bengal,Purulia,Alluvial,Brown planthopper,152,106,79,37.1,96.3,7.38,336.4,rice,4.4,24000
+Punjab,Rupnagar,Alluvial,Aphids,186,110,78,23.6,76.7,7.5,137.7,wheat,3.45,19250
+Maharashtra,Nagpur,Black,Stem borer,148,128,118,30.5,68.9,7.2,140.2,maize,2.5,12300
+Karnataka,Mysuru,Laterite,Leaf rust,184,143,160,22.1,81.2,6.1,160.8,coffee,2.9,35000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,179,134,138,31.1,75.1,6.9,150.9,sugarcane,5.3,34500
+West Bengal,Hooghly,Alluvial,Brown planthopper,154,108,80,37.4,96.6,7.4,339.9,rice,4.45,24250
+Punjab,Firozpur,Alluvial,Aphids,188,112,79,23.8,77.1,7.52,139.4,wheat,3.5,19500
+Maharashtra,Nashik,Black,Stem borer,150,130,120,29.4,66.5,7.15,135.8,maize,2.55,12400
+Karnataka,Mangaluru,Laterite,Leaf rust,186,145,162,23.5,82.8,6.05,170.3,coffee,2.95,35500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,181,136,140,30.8,74.5,6.85,148.2,sugarcane,5.35,34750
+West Bengal,Howrah,Alluvial,Brown planthopper,156,110,81,37.7,96.9,7.42,343.4,rice,4.5,24500
+Punjab,Bathinda,Alluvial,Aphids,190,114,80,24.0,77.5,7.55,141.1,wheat,3.55,19750
+Maharashtra,Aurangabad,Black,Stem borer,152,132,122,30.8,69.5,7.25,145.4,maize,2.58,12500
+Karnataka,Hubballi,Laterite,Leaf rust,188,147,164,22.5,81.8,6.15,165.5,coffee,3.0,36000
+Uttar Pradesh,Agra,Alluvial,Stem borer,183,138,142,31.5,76.2,7.0,155.1,sugarcane,5.4,35000
+West Bengal,Nadia,Alluvial,Brown planthopper,158,112,82,38.0,97.2,7.45,346.9,rice,4.55,24750
+Punjab,Amritsar,Alluvial,Aphids,192,116,81,24.2,77.9,7.58,142.8,wheat,3.6,20000
+Maharashtra,Kolhapur,Black,Stem borer,154,134,124,29.3,66.1,7.12,132.7,maize,2.6,12600
+Karnataka,Ballari,Laterite,Leaf rust,190,149,166,21.8,80.5,6.02,158.2,coffee,3.05,36500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,185,140,144,30.5,73.8,6.88,147.3,sugarcane,5.45,35250
+West Bengal,Purulia,Alluvial,Brown planthopper,160,114,83,38.3,97.5,7.48,350.4,rice,4.6,25000
+Punjab,Ludhiana,Alluvial,Aphids,194,118,82,24.4,78.3,7.6,144.5,wheat,3.65,20250
+Maharashtra,Jalgaon,Black,Stem borer,156,136,126,29.9,67.3,7.18,138.6,maize,2.62,12700
+Karnataka,Shivamogga,Laterite,Leaf rust,192,151,168,22.3,81.5,6.12,162.7,coffee,3.1,37000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,187,142,146,31.3,75.7,6.95,152.4,sugarcane,5.5,35500
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,162,116,84,38.6,97.8,7.5,353.9,rice,4.65,25250
+Punjab,Jalandhar,Alluvial,Aphids,196,120,83,24.6,78.7,7.62,146.2,wheat,3.7,20500
+Maharashtra,Satara,Black,Stem borer,158,138,128,30.1,69.2,7.22,142.9,maize,2.65,12800
+Karnataka,Chikmagalur,Laterite,Leaf rust,194,153,170,22.8,82.1,6.18,167.8,coffee,3.15,37500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,189,144,148,31.7,76.5,7.05,156.2,sugarcane,5.55,35750
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,164,118,85,38.9,98.1,7.52,357.4,rice,4.7,25500
+Punjab,Bathinda,Alluvial,Aphids,198,122,84,24.8,79.1,7.65,147.9,wheat,3.75,20750
+Maharashtra,Solapur,Black,Stem borer,160,140,130,31.1,69.8,7.28,147.7,maize,2.68,12900
+Karnataka,Kodagu,Laterite,Leaf rust,196,155,172,23.1,82.4,6.2,169.9,coffee,3.2,38000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,191,146,150,31.9,76.9,7.1,158.4,sugarcane,5.6,36000
+West Bengal,Hooghly,Alluvial,Brown planthopper,166,120,86,39.2,98.4,7.55,360.9,rice,4.75,25750
+Punjab,Pathankot,Alluvial,Aphids,200,124,85,25.0,79.5,7.68,149.6,wheat,3.8,21000
+Maharashtra,Thane,Black,Stem borer,162,142,132,31.4,70.2,7.3,149.8,maize,2.7,13000
+Karnataka,Hassan,Laterite,Leaf rust,198,157,174,23.8,82.7,6.25,172.5,coffee,3.25,38500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,193,148,152,32.1,77.3,7.15,160.1,sugarcane,5.65,36250
+West Bengal,Nadia,Alluvial,Brown planthopper,168,122,87,39.5,98.7,7.58,364.4,rice,4.8,26000
+Punjab,Hoshiarpur,Alluvial,Aphids,202,126,86,25.2,79.9,7.7,151.3,wheat,3.85,21250
+Maharashtra,Pune,Black,Stem borer,164,144,134,29.1,65.8,7.1,130.4,maize,2.72,13100
+Karnataka,Bengaluru,Laterite,Leaf rust,200,159,176,21.5,80.1,6.0,155.6,coffee,3.3,39000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,195,150,154,30.2,72.3,6.8,145.7,sugarcane,5.7,36500
+West Bengal,Purulia,Alluvial,Brown planthopper,170,124,88,39.8,99.0,7.6,367.9,rice,4.85,26250
+Punjab,Rupnagar,Alluvial,Aphids,204,128,87,25.4,80.3,7.72,153.0,wheat,3.9,21500
+Maharashtra,Nagpur,Black,Stem borer,166,146,136,30.5,68.9,7.2,140.2,maize,2.75,13200
+Karnataka,Mysuru,Laterite,Leaf rust,202,161,178,22.1,81.2,6.1,160.8,coffee,3.35,39500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,197,152,156,31.1,75.1,6.9,150.9,sugarcane,5.75,36750
+West Bengal,Hooghly,Alluvial,Brown planthopper,172,126,89,40.1,99.3,7.62,371.4,rice,4.9,26500
+Punjab,Firozpur,Alluvial,Aphids,206,130,88,25.6,80.7,7.75,154.7,wheat,3.95,21750
+Maharashtra,Nashik,Black,Stem borer,168,148,138,29.4,66.5,7.15,135.8,maize,2.78,13300
+Karnataka,Mangaluru,Laterite,Leaf rust,204,163,180,23.5,82.8,6.05,170.3,coffee,3.4,40000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,199,154,158,30.8,74.5,6.85,148.2,sugarcane,5.8,37000
+West Bengal,Howrah,Alluvial,Brown planthopper,174,128,90,40.4,99.6,7.65,374.9,rice,4.95,26750
+Punjab,Bathinda,Alluvial,Aphids,208,132,89,25.8,81.1,7.78,156.4,wheat,4.0,22000
+Maharashtra,Aurangabad,Black,Stem borer,170,150,140,30.8,69.5,7.25,145.4,maize,2.8,13400
+Karnataka,Hubballi,Laterite,Leaf rust,206,165,182,22.5,81.8,6.15,165.5,coffee,3.45,40500
+Uttar Pradesh,Agra,Alluvial,Stem borer,201,156,160,31.5,76.2,7.0,155.1,sugarcane,5.85,37250
+West Bengal,Nadia,Alluvial,Brown planthopper,176,130,91,40.7,99.9,7.68,378.4,rice,5.0,27000
+Punjab,Amritsar,Alluvial,Aphids,210,134,90,26.0,81.5,7.8,158.1,wheat,4.05,22250
+Maharashtra,Kolhapur,Black,Stem borer,172,152,142,29.3,66.1,7.12,132.7,maize,2.82,13500
+Karnataka,Ballari,Laterite,Leaf rust,208,167,184,21.8,80.5,6.02,158.2,coffee,3.5,41000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,203,158,162,30.5,73.8,6.88,147.3,sugarcane,5.9,37500
+West Bengal,Purulia,Alluvial,Brown planthopper,178,132,92,41.0,100.2,7.7,381.9,rice,5.05,27250
+Punjab,Ludhiana,Alluvial,Aphids,212,136,91,26.2,81.9,7.82,159.8,wheat,4.1,22500
+Maharashtra,Jalgaon,Black,Stem borer,174,154,144,29.9,67.3,7.18,138.6,maize,2.85,13600
+Karnataka,Shivamogga,Laterite,Leaf rust,210,169,186,22.3,81.5,6.12,162.7,coffee,3.55,41500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,205,160,164,31.3,75.7,6.95,152.4,sugarcane,5.95,37750
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,180,134,93,41.3,100.5,7.72,385.4,rice,5.1,27500
+Punjab,Jalandhar,Alluvial,Aphids,214,138,92,26.4,82.3,7.85,161.5,wheat,4.15,22750
+Maharashtra,Satara,Black,Stem borer,176,156,146,30.1,69.2,7.22,142.9,maize,2.88,13700
+Karnataka,Chikmagalur,Laterite,Leaf rust,212,171,188,22.8,82.1,6.18,167.8,coffee,3.6,42000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,207,162,166,31.7,76.5,7.05,156.2,sugarcane,6.0,38000
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,182,136,94,41.6,100.8,7.75,388.9,rice,5.15,27750
+Punjab,Bathinda,Alluvial,Aphids,216,140,93,26.6,82.7,7.88,163.2,wheat,4.2,23000
+Maharashtra,Solapur,Black,Stem borer,178,158,148,31.1,69.8,7.28,147.7,maize,2.9,13800
+Karnataka,Kodagu,Laterite,Leaf rust,214,173,190,23.1,82.4,6.2,169.9,coffee,3.65,42500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,209,164,168,31.9,76.9,7.1,158.4,sugarcane,6.05,38250
+West Bengal,Hooghly,Alluvial,Brown planthopper,184,138,95,41.9,101.1,7.78,392.4,rice,5.2,28000
+Punjab,Pathankot,Alluvial,Aphids,218,142,94,26.8,83.1,7.9,164.9,wheat,4.25,23250
+Maharashtra,Thane,Black,Stem borer,180,160,150,31.4,70.2,7.3,149.8,maize,2.92,13900
+Karnataka,Hassan,Laterite,Leaf rust,216,175,192,23.8,82.7,6.25,172.5,coffee,3.7,43000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,211,166,170,32.1,77.3,7.15,160.1,sugarcane,6.1,38500
+West Bengal,Nadia,Alluvial,Brown planthopper,186,140,96,42.2,101.4,7.8,395.9,rice,5.25,28250
+Punjab,Hoshiarpur,Alluvial,Aphids,220,144,95,27.0,83.5,7.92,166.6,wheat,4.3,23500
+Maharashtra,Pune,Black,Stem borer,182,162,152,29.1,65.8,7.1,130.4,maize,2.95,14000
+Karnataka,Bengaluru,Laterite,Leaf rust,218,177,194,21.5,80.1,6.0,155.6,coffee,3.75,43500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,213,168,172,30.2,72.3,6.8,145.7,sugarcane,6.15,38750
+West Bengal,Purulia,Alluvial,Brown planthopper,188,142,97,42.5,101.7,7.82,399.4,rice,5.3,28500
+Punjab,Rupnagar,Alluvial,Aphids,222,146,96,27.2,83.9,7.95,168.3,wheat,4.35,23750
+Maharashtra,Nagpur,Black,Stem borer,184,164,154,30.5,68.9,7.2,140.2,maize,2.98,14100
+Karnataka,Mysuru,Laterite,Leaf rust,220,179,196,22.1,81.2,6.1,160.8,coffee,3.8,44000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,215,170,174,31.1,75.1,6.9,150.9,sugarcane,6.2,39000
+West Bengal,Hooghly,Alluvial,Brown planthopper,190,144,98,42.8,102.0,7.85,402.9,rice,5.35,28750
+Punjab,Firozpur,Alluvial,Aphids,224,148,97,27.4,84.3,7.98,170.0,wheat,4.4,24000
+Maharashtra,Nashik,Black,Stem borer,186,166,156,29.4,66.5,7.15,135.8,maize,3.0,14200
+Karnataka,Mangaluru,Laterite,Leaf rust,222,181,198,23.5,82.8,6.05,170.3,coffee,3.85,44500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,217,172,176,30.8,74.5,6.85,148.2,sugarcane,6.25,39250
+West Bengal,Howrah,Alluvial,Brown planthopper,192,146,99,43.1,102.3,7.88,406.4,rice,5.4,29000
+Punjab,Bathinda,Alluvial,Aphids,226,150,98,27.6,84.7,8.0,171.7,wheat,4.45,24250
+Maharashtra,Aurangabad,Black,Stem borer,188,168,158,30.8,69.5,7.25,145.4,maize,3.02,14300
+Karnataka,Hubballi,Laterite,Leaf rust,224,183,200,22.5,81.8,6.15,165.5,coffee,3.9,45000
+Uttar Pradesh,Agra,Alluvial,Stem borer,219,174,178,31.5,76.2,7.0,155.1,sugarcane,6.3,39500
+West Bengal,Nadia,Alluvial,Brown planthopper,194,148,100,43.4,102.6,7.9,409.9,rice,5.45,29250
+Punjab,Amritsar,Alluvial,Aphids,228,152,99,27.8,85.1,8.02,173.4,wheat,4.5,24500
+Maharashtra,Kolhapur,Black,Stem borer,190,170,160,29.3,66.1,7.12,132.7,maize,3.05,14400
+Karnataka,Ballari,Laterite,Leaf rust,226,185,202,21.8,80.5,6.02,158.2,coffee,3.95,45500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,221,176,180,30.5,73.8,6.88,147.3,sugarcane,6.35,39750
+West Bengal,Purulia,Alluvial,Brown planthopper,196,150,101,43.7,102.9,7.92,413.4,rice,5.5,29500
+Punjab,Ludhiana,Alluvial,Aphids,230,154,100,28.0,85.5,8.05,175.1,wheat,4.55,24750
+Maharashtra,Jalgaon,Black,Stem borer,192,172,162,29.9,67.3,7.18,138.6,maize,3.08,14500
+Karnataka,Shivamogga,Laterite,Leaf rust,228,187,204,22.3,81.5,6.12,162.7,coffee,4.0,46000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,223,178,182,31.3,75.7,6.95,152.4,sugarcane,6.4,40000
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,198,152,102,44.0,103.2,7.95,416.9,rice,5.55,29750
+Punjab,Jalandhar,Alluvial,Aphids,232,156,101,28.2,85.9,8.08,176.8,wheat,4.6,25000
+Maharashtra,Satara,Black,Stem borer,194,174,164,30.1,69.2,7.22,142.9,maize,3.1,14600
+Karnataka,Chikmagalur,Laterite,Leaf rust,230,189,206,22.8,82.1,6.18,167.8,coffee,4.05,46500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,225,180,184,31.7,76.5,7.05,156.2,sugarcane,6.45,40250
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,200,154,103,44.3,103.5,7.98,420.4,rice,5.6,30000
+Punjab,Bathinda,Alluvial,Aphids,234,158,102,28.4,86.3,8.1,178.5,wheat,4.65,25250
+Maharashtra,Solapur,Black,Stem borer,196,176,166,31.1,69.8,7.28,147.7,maize,3.12,14700
+Karnataka,Kodagu,Laterite,Leaf rust,232,191,208,23.1,82.4,6.2,169.9,coffee,4.1,47000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,227,182,186,31.9,76.9,7.1,158.4,sugarcane,6.5,40500
+West Bengal,Hooghly,Alluvial,Brown planthopper,202,156,104,44.6,103.8,8.0,423.9,rice,5.65,30250
+Punjab,Pathankot,Alluvial,Aphids,236,160,103,28.6,86.7,8.12,180.2,wheat,4.7,25500
+Maharashtra,Thane,Black,Stem borer,198,178,168,31.4,70.2,7.3,149.8,maize,3.15,14800
+Karnataka,Hassan,Laterite,Leaf rust,234,193,210,23.8,82.7,6.25,172.5,coffee,4.15,47500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,229,184,188,32.1,77.3,7.15,160.1,sugarcane,6.55,40750
+West Bengal,Nadia,Alluvial,Brown planthopper,204,158,105,44.9,104.1,8.02,427.4,rice,5.7,30500
+Punjab,Hoshiarpur,Alluvial,Aphids,238,162,104,28.8,87.1,8.15,181.9,wheat,4.75,25750
+Maharashtra,Pune,Black,Stem borer,200,180,170,29.1,65.8,7.1,130.4,maize,3.18,14900
+Karnataka,Bengaluru,Laterite,Leaf rust,236,195,212,21.5,80.1,6.0,155.6,coffee,4.2,48000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,231,186,190,30.2,72.3,6.8,145.7,sugarcane,6.6,41000
+West Bengal,Purulia,Alluvial,Brown planthopper,206,160,106,45.2,104.4,8.05,430.9,rice,5.75,30750
+Punjab,Rupnagar,Alluvial,Aphids,240,164,105,29.0,87.5,8.18,183.6,wheat,4.8,26000
+Maharashtra,Nagpur,Black,Stem borer,202,182,172,30.5,68.9,7.2,140.2,maize,3.2,15000
+Karnataka,Mysuru,Laterite,Leaf rust,238,197,214,22.1,81.2,6.1,160.8,coffee,4.25,48500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,233,188,192,31.1,75.1,6.9,150.9,sugarcane,6.65,41250
+West Bengal,Hooghly,Alluvial,Brown planthopper,208,162,107,45.5,104.7,8.08,434.4,rice,5.8,31000
+Punjab,Firozpur,Alluvial,Aphids,242,166,106,29.2,87.9,8.2,185.3,wheat,4.85,26250
+Maharashtra,Nashik,Black,Stem borer,204,184,174,29.4,66.5,7.15,135.8,maize,3.22,15100
+Karnataka,Mangaluru,Laterite,Leaf rust,240,199,216,23.5,82.8,6.05,170.3,coffee,4.3,49000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,235,190,194,30.8,74.5,6.85,148.2,sugarcane,6.7,41500
+West Bengal,Howrah,Alluvial,Brown planthopper,210,164,108,45.8,105.0,8.1,437.9,rice,5.85,31250
+Punjab,Bathinda,Alluvial,Aphids,244,168,107,29.4,88.3,8.22,187.0,wheat,4.9,26500
+Maharashtra,Aurangabad,Black,Stem borer,206,186,176,30.8,69.5,7.25,145.4,maize,3.25,15200
+Karnataka,Hubballi,Laterite,Leaf rust,242,201,218,22.5,81.8,6.15,165.5,coffee,4.35,49500
+Uttar Pradesh,Agra,Alluvial,Stem borer,237,192,196,31.5,76.2,7.0,155.1,sugarcane,6.75,41750
+West Bengal,Nadia,Alluvial,Brown planthopper,212,166,109,46.1,105.3,8.12,441.4,rice,5.9,31500
+Punjab,Amritsar,Alluvial,Aphids,246,170,108,29.6,88.7,8.25,188.7,wheat,4.95,26750
+Maharashtra,Kolhapur,Black,Stem borer,208,188,178,29.3,66.1,7.12,132.7,maize,3.28,15300
+Karnataka,Ballari,Laterite,Leaf rust,244,203,220,21.8,80.5,6.02,158.2,coffee,4.4,50000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,239,194,198,30.5,73.8,6.88,147.3,sugarcane,6.8,42000
+West Bengal,Purulia,Alluvial,Brown planthopper,214,168,110,46.4,105.6,8.15,444.9,rice,5.95,31750
+Punjab,Ludhiana,Alluvial,Aphids,248,172,109,29.8,89.1,8.28,190.4,wheat,5.0,27000
+Maharashtra,Jalgaon,Black,Stem borer,210,190,180,29.9,67.3,7.18,138.6,maize,3.3,15400
+Karnataka,Shivamogga,Laterite,Leaf rust,246,205,222,22.3,81.5,6.12,162.7,coffee,4.45,50500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,241,196,200,31.3,75.7,6.95,152.4,sugarcane,6.85,42250
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,216,170,111,46.7,105.9,8.18,448.4,rice,6.0,32000
+Punjab,Jalandhar,Alluvial,Aphids,250,174,110,30.0,89.5,8.3,192.1,wheat,5.05,27250
+Maharashtra,Satara,Black,Stem borer,212,192,182,30.1,69.2,7.22,142.9,maize,3.32,15500
+Karnataka,Chikmagalur,Laterite,Leaf rust,248,207,224,22.8,82.1,6.18,167.8,coffee,4.5,51000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,243,198,202,31.7,76.5,7.05,156.2,sugarcane,6.9,42500
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,218,172,112,47.0,106.2,8.2,451.9,rice,6.05,32250
+Punjab,Bathinda,Alluvial,Aphids,252,176,111,30.2,89.9,8.32,193.8,wheat,5.1,27500
+Maharashtra,Solapur,Black,Stem borer,214,194,184,31.1,69.8,7.28,147.7,maize,3.35,15600
+Karnataka,Kodagu,Laterite,Leaf rust,250,209,226,23.1,82.4,6.2,169.9,coffee,4.55,51500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,245,200,204,31.9,76.9,7.1,158.4,sugarcane,6.95,42750
+West Bengal,Hooghly,Alluvial,Brown planthopper,220,174,113,47.3,106.5,8.22,455.4,rice,6.1,32500
+Punjab,Pathankot,Alluvial,Aphids,254,178,112,30.4,90.3,8.35,195.5,wheat,5.15,27750
+Maharashtra,Thane,Black,Stem borer,216,196,186,31.4,70.2,7.3,149.8,maize,3.38,15700
+Karnataka,Hassan,Laterite,Leaf rust,252,211,228,23.8,82.7,6.25,172.5,coffee,4.6,52000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,247,202,206,32.1,77.3,7.15,160.1,sugarcane,7.0,43000
+West Bengal,Nadia,Alluvial,Brown planthopper,222,176,114,47.6,106.8,8.25,458.9,rice,6.15,32750
+Punjab,Hoshiarpur,Alluvial,Aphids,256,180,113,30.6,90.7,8.38,197.2,wheat,5.2,28000
+Maharashtra,Pune,Black,Stem borer,218,198,188,29.1,65.8,7.1,130.4,maize,3.4,15800
+Karnataka,Bengaluru,Laterite,Leaf rust,254,213,230,21.5,80.1,6.0,155.6,coffee,4.65,52500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,249,204,208,30.2,72.3,6.8,145.7,sugarcane,7.05,43250
+West Bengal,Purulia,Alluvial,Brown planthopper,224,178,115,47.9,107.1,8.28,462.4,rice,6.2,33000
+Punjab,Rupnagar,Alluvial,Aphids,258,182,114,30.8,91.1,8.4,198.9,wheat,5.25,28250
+Maharashtra,Nagpur,Black,Stem borer,220,200,190,30.5,68.9,7.2,140.2,maize,3.42,15900
+Karnataka,Mysuru,Laterite,Leaf rust,256,215,232,22.1,81.2,6.1,160.8,coffee,4.7,53000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,251,206,210,31.1,75.1,6.9,150.9,sugarcane,7.1,43500
+West Bengal,Hooghly,Alluvial,Brown planthopper,226,180,116,48.2,107.4,8.3,465.9,rice,6.25,33250
+Punjab,Firozpur,Alluvial,Aphids,260,184,115,31.0,91.5,8.42,200.6,wheat,5.3,28500
+Maharashtra,Nashik,Black,Stem borer,222,202,192,29.4,66.5,7.15,135.8,maize,3.45,16000
+Karnataka,Mangaluru,Laterite,Leaf rust,258,217,234,23.5,82.8,6.05,170.3,coffee,4.75,53500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,253,208,212,30.8,74.5,6.85,148.2,sugarcane,7.15,43750
+West Bengal,Howrah,Alluvial,Brown planthopper,228,182,117,48.5,107.7,8.32,469.4,rice,6.3,33500
+Punjab,Bathinda,Alluvial,Aphids,262,186,116,31.2,91.9,8.45,202.3,wheat,5.35,28750
+Maharashtra,Aurangabad,Black,Stem borer,224,204,194,30.8,69.5,7.25,145.4,maize,3.48,16100
+Karnataka,Hubballi,Laterite,Leaf rust,260,219,236,22.5,81.8,6.15,165.5,coffee,4.8,54000
+Uttar Pradesh,Agra,Alluvial,Stem borer,255,210,214,31.5,76.2,7.0,155.1,sugarcane,7.2,44000
+West Bengal,Nadia,Alluvial,Brown planthopper,230,184,118,48.8,108.0,8.35,472.9,rice,6.35,33750
+Punjab,Amritsar,Alluvial,Aphids,264,188,117,31.4,92.3,8.48,204.0,wheat,5.4,29000
+Maharashtra,Kolhapur,Black,Stem borer,226,206,196,29.3,66.1,7.12,132.7,maize,3.5,16200
+Karnataka,Ballari,Laterite,Leaf rust,262,221,238,21.8,80.5,6.02,158.2,coffee,4.85,54500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,257,212,216,30.5,73.8,6.88,147.3,sugarcane,7.25,44250
+West Bengal,Purulia,Alluvial,Brown planthopper,232,186,119,49.1,108.3,8.38,476.4,rice,6.4,34000
+Punjab,Ludhiana,Alluvial,Aphids,266,190,118,31.6,92.7,8.5,205.7,wheat,5.45,29250
+Maharashtra,Jalgaon,Black,Stem borer,228,208,198,29.9,67.3,7.18,138.6,maize,3.52,16300
+Karnataka,Shivamogga,Laterite,Leaf rust,264,223,240,22.3,81.5,6.12,162.7,coffee,4.9,55000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,259,214,218,31.3,75.7,6.95,152.4,sugarcane,7.3,44500
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,234,188,120,49.4,108.6,8.4,479.9,rice,6.45,34250
+Punjab,Jalandhar,Alluvial,Aphids,268,192,119,31.8,93.1,8.52,207.4,wheat,5.5,29500
+Maharashtra,Satara,Black,Stem borer,230,210,200,30.1,69.2,7.22,142.9,maize,3.55,16400
+Karnataka,Chikmagalur,Laterite,Leaf rust,266,225,242,22.8,82.1,6.18,167.8,coffee,4.95,55500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,261,216,220,31.7,76.5,7.05,156.2,sugarcane,7.35,44750
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,236,190,121,49.7,108.9,8.42,483.4,rice,6.5,34500
+Punjab,Bathinda,Alluvial,Aphids,270,194,120,32.0,93.5,8.55,209.1,wheat,5.55,29750
+Maharashtra,Solapur,Black,Stem borer,232,212,202,31.1,69.8,7.28,147.7,maize,3.58,16500
+Karnataka,Kodagu,Laterite,Leaf rust,268,227,244,23.1,82.4,6.2,169.9,coffee,5.0,56000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,263,218,222,31.9,76.9,7.1,158.4,sugarcane,7.4,45000
+West Bengal,Hooghly,Alluvial,Brown planthopper,238,192,122,50.0,109.2,8.45,486.9,rice,6.55,34750
+Punjab,Pathankot,Alluvial,Aphids,272,196,121,32.2,93.9,8.58,210.8,wheat,5.6,30000
+Maharashtra,Thane,Black,Stem borer,234,214,204,31.4,70.2,7.3,149.8,maize,3.6,16600
+Karnataka,Hassan,Laterite,Leaf rust,270,229,246,23.8,82.7,6.25,172.5,coffee,5.05,56500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,265,220,224,32.1,77.3,7.15,160.1,sugarcane,7.45,45250
+West Bengal,Nadia,Alluvial,Brown planthopper,240,194,123,50.3,109.5,8.48,490.4,rice,6.6,35000
+Punjab,Hoshiarpur,Alluvial,Aphids,274,198,122,32.4,94.3,8.6,212.5,wheat,5.65,30250
+Maharashtra,Pune,Black,Stem borer,236,216,206,29.1,65.8,7.1,130.4,maize,3.62,16700
+Karnataka,Bengaluru,Laterite,Leaf rust,272,231,248,21.5,80.1,6.0,155.6,coffee,5.1,57000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,267,222,226,30.2,72.3,6.8,145.7,sugarcane,7.5,45500
+West Bengal,Purulia,Alluvial,Brown planthopper,242,196,124,50.6,109.8,8.5,493.9,rice,6.65,35250
+Punjab,Rupnagar,Alluvial,Aphids,276,200,123,32.6,94.7,8.62,214.2,wheat,5.7,30500
+Maharashtra,Nagpur,Black,Stem borer,238,218,208,30.5,68.9,7.2,140.2,maize,3.65,16800
+Karnataka,Mysuru,Laterite,Leaf rust,274,233,250,22.1,81.2,6.1,160.8,coffee,5.15,57500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,269,224,228,31.1,75.1,6.9,150.9,sugarcane,7.55,45750
+West Bengal,Hooghly,Alluvial,Brown planthopper,244,198,125,50.9,110.1,8.52,497.4,rice,6.7,35500
+Punjab,Firozpur,Alluvial,Aphids,278,202,124,32.8,95.1,8.65,215.9,wheat,5.75,30750
+Maharashtra,Nashik,Black,Stem borer,240,220,210,29.4,66.5,7.15,135.8,maize,3.68,16900
+Karnataka,Mangaluru,Laterite,Leaf rust,276,235,252,23.5,82.8,6.05,170.3,coffee,5.2,58000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,271,226,230,30.8,74.5,6.85,148.2,sugarcane,7.6,46000
+West Bengal,Howrah,Alluvial,Brown planthopper,246,200,126,51.2,110.4,8.55,500.9,rice,6.75,35750
+Punjab,Bathinda,Alluvial,Aphids,280,204,125,33.0,95.5,8.68,217.6,wheat,5.8,31000
+Maharashtra,Aurangabad,Black,Stem borer,242,222,212,30.8,69.5,7.25,145.4,maize,3.7,17000
+Karnataka,Hubballi,Laterite,Leaf rust,278,237,254,22.5,81.8,6.15,165.5,coffee,5.25,58500
+Uttar Pradesh,Agra,Alluvial,Stem borer,273,228,232,31.5,76.2,7.0,155.1,sugarcane,7.65,46250
+West Bengal,Nadia,Alluvial,Brown planthopper,248,202,127,51.5,110.7,8.58,504.4,rice,6.8,36000
+Punjab,Amritsar,Alluvial,Aphids,282,206,126,33.2,95.9,8.7,219.3,wheat,5.85,31250
+Maharashtra,Kolhapur,Black,Stem borer,244,224,214,29.3,66.1,7.12,132.7,maize,3.72,17100
+Karnataka,Ballari,Laterite,Leaf rust,280,239,256,21.8,80.5,6.02,158.2,coffee,5.3,59000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,275,230,234,30.5,73.8,6.88,147.3,sugarcane,7.7,46500
+West Bengal,Purulia,Alluvial,Brown planthopper,250,204,128,51.8,111.0,8.6,507.9,rice,6.85,36250
+Punjab,Ludhiana,Alluvial,Aphids,284,208,127,33.4,96.3,8.72,221.0,wheat,5.9,31500
+Maharashtra,Jalgaon,Black,Stem borer,246,226,216,29.9,67.3,7.18,138.6,maize,3.75,17200
+Karnataka,Shivamogga,Laterite,Leaf rust,282,241,258,22.3,81.5,6.12,162.7,coffee,5.35,59500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,277,232,236,31.3,75.7,6.95,152.4,sugarcane,7.75,46750
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,252,206,129,52.1,111.3,8.62,511.4,rice,6.9,36500
+Punjab,Jalandhar,Alluvial,Aphids,286,210,128,33.6,96.7,8.75,222.7,wheat,5.95,31750
+Maharashtra,Satara,Black,Stem borer,248,228,218,30.1,69.2,7.22,142.9,maize,3.78,17300
+Karnataka,Chikmagalur,Laterite,Leaf rust,284,243,260,22.8,82.1,6.18,167.8,coffee,5.4,60000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,279,234,238,31.7,76.5,7.05,156.2,sugarcane,7.8,47000
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,254,208,130,52.4,111.6,8.65,514.9,rice,6.95,36750
+Punjab,Bathinda,Alluvial,Aphids,288,212,129,33.8,97.1,8.78,224.4,wheat,6.0,32000
+Maharashtra,Solapur,Black,Stem borer,250,230,220,31.1,69.8,7.28,147.7,maize,3.8,17400
+Karnataka,Kodagu,Laterite,Leaf rust,286,245,262,23.1,82.4,6.2,169.9,coffee,5.45,60500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,281,236,240,31.9,76.9,7.1,158.4,sugarcane,7.85,47250
+West Bengal,Hooghly,Alluvial,Brown planthopper,256,210,131,52.7,111.9,8.68,518.4,rice,7.0,37000
+Punjab,Pathankot,Alluvial,Aphids,290,214,130,34.0,97.5,8.8,226.1,wheat,6.05,32250
+Maharashtra,Thane,Black,Stem borer,252,232,222,31.4,70.2,7.3,149.8,maize,3.82,17500
+Karnataka,Hassan,Laterite,Leaf rust,288,247,264,23.8,82.7,6.25,172.5,coffee,5.5,61000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,283,238,242,32.1,77.3,7.15,160.1,sugarcane,7.9,47500
+West Bengal,Nadia,Alluvial,Brown planthopper,258,212,132,53.0,112.2,8.7,521.9,rice,7.05,37250
+Punjab,Hoshiarpur,Alluvial,Aphids,292,216,131,34.2,97.9,8.82,227.8,wheat,6.1,32500
+Maharashtra,Pune,Black,Stem borer,254,234,224,29.1,65.8,7.1,130.4,maize,3.85,17600
+Karnataka,Bengaluru,Laterite,Leaf rust,290,249,266,21.5,80.1,6.0,155.6,coffee,5.55,61500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,285,240,244,30.2,72.3,6.8,145.7,sugarcane,7.95,47750
+West Bengal,Purulia,Alluvial,Brown planthopper,260,214,133,53.3,112.5,8.72,525.4,rice,7.1,37500
+Punjab,Rupnagar,Alluvial,Aphids,294,218,132,34.4,98.3,8.85,229.5,wheat,6.15,32750
+Maharashtra,Nagpur,Black,Stem borer,256,236,226,30.5,68.9,7.2,140.2,maize,3.88,17700
+Karnataka,Mysuru,Laterite,Leaf rust,292,251,268,22.1,81.2,6.1,160.8,coffee,5.6,62000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,287,242,246,31.1,75.1,6.9,150.9,sugarcane,8.0,48000
+West Bengal,Hooghly,Alluvial,Brown planthopper,262,216,134,53.6,112.8,8.75,528.9,rice,7.15,37750
+Punjab,Firozpur,Alluvial,Aphids,296,220,133,34.6,98.7,8.88,231.2,wheat,6.2,33000
+Maharashtra,Nashik,Black,Stem borer,258,238,228,29.4,66.5,7.15,135.8,maize,3.9,17800
+Karnataka,Mangaluru,Laterite,Leaf rust,294,253,270,23.5,82.8,6.05,170.3,coffee,5.65,62500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,289,244,248,30.8,74.5,6.85,148.2,sugarcane,8.05,48250
+West Bengal,Howrah,Alluvial,Brown planthopper,264,218,135,53.9,113.1,8.78,532.4,rice,7.2,38000
+Punjab,Bathinda,Alluvial,Aphids,298,222,134,34.8,99.1,8.9,232.9,wheat,6.25,33250
+Maharashtra,Aurangabad,Black,Stem borer,260,240,230,30.8,69.5,7.25,145.4,maize,3.92,17900
+Karnataka,Hubballi,Laterite,Leaf rust,296,255,272,22.5,81.8,6.15,165.5,coffee,5.7,63000
+Uttar Pradesh,Agra,Alluvial,Stem borer,291,246,250,31.5,76.2,7.0,155.1,sugarcane,8.1,48500
+West Bengal,Nadia,Alluvial,Brown planthopper,266,220,136,54.2,113.4,8.8,535.9,rice,7.25,38250
+Punjab,Amritsar,Alluvial,Aphids,300,224,135,35.0,99.5,8.92,234.6,wheat,6.3,33500
+Maharashtra,Kolhapur,Black,Stem borer,262,242,232,29.3,66.1,7.12,132.7,maize,3.95,18000
+Karnataka,Ballari,Laterite,Leaf rust,298,257,274,21.8,80.5,6.02,158.2,coffee,5.75,63500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,293,248,252,30.5,73.8,6.88,147.3,sugarcane,8.15,48750
+West Bengal,Purulia,Alluvial,Brown planthopper,268,222,137,54.5,113.7,8.82,539.4,rice,7.3,38500
+Punjab,Ludhiana,Alluvial,Aphids,302,226,136,35.2,99.9,8.95,236.3,wheat,6.35,33750
+Maharashtra,Jalgaon,Black,Stem borer,264,244,234,29.9,67.3,7.18,138.6,maize,3.98,18100
+Karnataka,Shivamogga,Laterite,Leaf rust,300,259,276,22.3,81.5,6.12,162.7,coffee,5.8,64000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,295,250,254,31.3,75.7,6.95,152.4,sugarcane,8.2,49000
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,270,224,138,54.8,114.0,8.85,542.9,rice,7.35,38750
+Punjab,Jalandhar,Alluvial,Aphids,304,228,137,35.4,100.3,8.98,238.0,wheat,6.4,34000
+Maharashtra,Satara,Black,Stem borer,266,246,236,30.1,69.2,7.22,142.9,maize,4.0,18200
+Karnataka,Chikmagalur,Laterite,Leaf rust,302,261,278,22.8,82.1,6.18,167.8,coffee,5.85,64500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,297,252,256,31.7,76.5,7.05,156.2,sugarcane,8.25,49250
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,272,226,139,55.1,114.3,8.88,546.4,rice,7.4,39000
+Punjab,Bathinda,Alluvial,Aphids,306,230,138,35.6,100.7,9.0,239.7,wheat,6.45,34250
+Maharashtra,Solapur,Black,Stem borer,268,248,238,31.1,69.8,7.28,147.7,maize,4.02,18300
+Karnataka,Kodagu,Laterite,Leaf rust,304,263,280,23.1,82.4,6.2,169.9,coffee,5.9,65000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,299,254,258,31.9,76.9,7.1,158.4,sugarcane,8.3,49500
+West Bengal,Hooghly,Alluvial,Brown planthopper,274,228,140,55.4,114.6,8.9,549.9,rice,7.45,39250
+Punjab,Pathankot,Alluvial,Aphids,308,232,139,35.8,101.1,9.02,241.4,wheat,6.5,34500
+Maharashtra,Thane,Black,Stem borer,270,250,240,31.4,70.2,7.3,149.8,maize,4.05,18400
+Karnataka,Hassan,Laterite,Leaf rust,306,265,282,23.8,82.7,6.25,172.5,coffee,5.95,65500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,301,256,260,32.1,77.3,7.15,160.1,sugarcane,8.35,49750
+West Bengal,Nadia,Alluvial,Brown planthopper,276,230,141,55.7,114.9,8.92,553.4,rice,7.5,39500
+Punjab,Hoshiarpur,Alluvial,Aphids,310,234,140,36.0,101.5,9.05,243.1,wheat,6.55,34750
+Maharashtra,Pune,Black,Stem borer,272,252,242,29.1,65.8,7.1,130.4,maize,4.08,18500
+Karnataka,Bengaluru,Laterite,Leaf rust,308,267,284,21.5,80.1,6.0,155.6,coffee,6.0,66000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,303,258,262,30.2,72.3,6.8,145.7,sugarcane,8.4,50000
+West Bengal,Purulia,Alluvial,Brown planthopper,278,232,142,56.0,115.2,8.95,556.9,rice,7.55,39750
+Punjab,Rupnagar,Alluvial,Aphids,312,236,141,36.2,101.9,9.08,244.8,wheat,6.6,35000
+Maharashtra,Nagpur,Black,Stem borer,274,254,244,30.5,68.9,7.2,140.2,maize,4.1,18600
+Karnataka,Mysuru,Laterite,Leaf rust,310,269,286,22.1,81.2,6.1,160.8,coffee,6.05,66500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,305,260,264,31.1,75.1,6.9,150.9,sugarcane,8.45,50250
+West Bengal,Hooghly,Alluvial,Brown planthopper,280,234,143,56.3,115.5,8.98,560.4,rice,7.6,40000
+Punjab,Firozpur,Alluvial,Aphids,314,238,142,36.4,102.3,9.1,246.5,wheat,6.65,35250
+Maharashtra,Nashik,Black,Stem borer,276,256,246,29.4,66.5,7.15,135.8,maize,4.12,18700
+Karnataka,Mangaluru,Laterite,Leaf rust,312,271,288,23.5,82.8,6.05,170.3,coffee,6.1,67000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,307,262,266,30.8,74.5,6.85,148.2,sugarcane,8.5,50500
+West Bengal,Howrah,Alluvial,Brown planthopper,282,236,144,56.6,115.8,9.0,563.9,rice,7.65,40250
+Punjab,Bathinda,Alluvial,Aphids,316,240,143,36.6,102.7,9.12,248.2,wheat,6.7,35500
+Maharashtra,Aurangabad,Black,Stem borer,278,258,248,30.8,69.5,7.25,145.4,maize,4.15,18800
+Karnataka,Hubballi,Laterite,Leaf rust,314,273,290,22.5,81.8,6.15,165.5,coffee,6.15,67500
+Uttar Pradesh,Agra,Alluvial,Stem borer,309,264,268,31.5,76.2,7.0,155.1,sugarcane,8.55,50750
+West Bengal,Nadia,Alluvial,Brown planthopper,284,238,145,56.9,116.1,9.02,567.4,rice,7.7,40500
+Punjab,Amritsar,Alluvial,Aphids,318,242,144,36.8,103.1,9.15,249.9,wheat,6.75,35750
+Maharashtra,Kolhapur,Black,Stem borer,280,260,250,29.3,66.1,7.12,132.7,maize,4.18,18900
+Karnataka,Ballari,Laterite,Leaf rust,316,275,292,21.8,80.5,6.02,158.2,coffee,6.2,68000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,311,266,270,30.5,73.8,6.88,147.3,sugarcane,8.6,51000
+West Bengal,Purulia,Alluvial,Brown planthopper,286,240,146,57.2,116.4,9.05,570.9,rice,7.75,40750
+Punjab,Ludhiana,Alluvial,Aphids,320,244,145,37.0,103.5,9.18,251.6,wheat,6.8,36000
+Maharashtra,Jalgaon,Black,Stem borer,282,262,252,29.9,67.3,7.18,138.6,maize,4.2,19000
+Karnataka,Shivamogga,Laterite,Leaf rust,318,277,294,22.3,81.5,6.12,162.7,coffee,6.25,68500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,313,268,272,31.3,75.7,6.95,152.4,sugarcane,8.65,51250
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,288,242,147,57.5,116.7,9.08,574.4,rice,7.8,41000
+Punjab,Jalandhar,Alluvial,Aphids,322,246,146,37.2,103.9,9.2,253.3,wheat,6.85,36250
+Maharashtra,Satara,Black,Stem borer,284,264,254,30.1,69.2,7.22,142.9,maize,4.22,19100
+Karnataka,Chikmagalur,Laterite,Leaf rust,320,279,296,22.8,82.1,6.18,167.8,coffee,6.3,69000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,315,270,274,31.7,76.5,7.05,156.2,sugarcane,8.7,51500
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,290,244,148,57.8,117.0,9.1,577.9,rice,7.85,41250
+Punjab,Bathinda,Alluvial,Aphids,324,248,147,37.4,104.3,9.22,255.0,wheat,6.9,36500
+Maharashtra,Solapur,Black,Stem borer,286,266,256,31.1,69.8,7.28,147.7,maize,4.25,19200
+Karnataka,Kodagu,Laterite,Leaf rust,322,281,298,23.1,82.4,6.2,169.9,coffee,6.35,69500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,317,272,276,31.9,76.9,7.1,158.4,sugarcane,8.75,51750
+West Bengal,Hooghly,Alluvial,Brown planthopper,292,246,149,58.1,117.3,9.12,581.4,rice,7.9,41500
+Punjab,Pathankot,Alluvial,Aphids,326,250,148,37.6,104.7,9.25,256.7,wheat,6.95,36750
+Maharashtra,Thane,Black,Stem borer,288,268,258,31.4,70.2,7.3,149.8,maize,4.28,19300
+Karnataka,Hassan,Laterite,Leaf rust,324,283,300,23.8,82.7,6.25,172.5,coffee,6.4,70000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,319,274,278,32.1,77.3,7.15,160.1,sugarcane,8.8,52000
+West Bengal,Nadia,Alluvial,Brown planthopper,294,248,150,58.4,117.6,9.15,584.9,rice,7.95,41750
+Punjab,Hoshiarpur,Alluvial,Aphids,328,252,149,37.8,105.1,9.28,258.4,wheat,7.0,37000
+Maharashtra,Pune,Black,Stem borer,296,270,260,29.1,65.8,7.1,130.4,maize,4.3,19400
+Karnataka,Bengaluru,Laterite,Leaf rust,326,285,302,21.5,80.1,6.0,155.6,coffee,6.45,70500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,321,276,280,30.2,72.3,6.8,145.7,sugarcane,8.85,52250
+West Bengal,Purulia,Alluvial,Brown planthopper,298,250,151,58.7,117.9,9.18,588.4,rice,8.0,42000
+Punjab,Rupnagar,Alluvial,Aphids,330,254,150,38.0,105.5,9.3,260.1,wheat,7.05,37250
+Maharashtra,Nagpur,Black,Stem borer,300,272,262,30.5,68.9,7.2,140.2,maize,4.32,19500
+Karnataka,Mysuru,Laterite,Leaf rust,328,287,304,22.1,81.2,6.1,160.8,coffee,6.5,71000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,323,278,282,31.1,75.1,6.9,150.9,sugarcane,8.9,52500
+West Bengal,Hooghly,Alluvial,Brown planthopper,302,256,152,59.0,118.2,9.2,591.9,rice,8.05,42250
+Punjab,Firozpur,Alluvial,Aphids,332,258,151,38.2,105.9,9.32,261.8,wheat,7.1,37500
+Maharashtra,Nashik,Black,Stem borer,304,280,264,29.4,66.5,7.15,135.8,maize,4.35,19600
+Karnataka,Mangaluru,Laterite,Leaf rust,330,289,306,23.5,82.8,6.05,170.3,coffee,6.55,71500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,325,282,284,30.8,74.5,6.85,148.2,sugarcane,8.95,52750
+West Bengal,Howrah,Alluvial,Brown planthopper,306,260,153,59.3,118.5,9.22,595.4,rice,8.1,42500
+Punjab,Bathinda,Alluvial,Aphids,334,262,152,38.4,106.3,9.35,263.5,wheat,7.15,37750
+Maharashtra,Aurangabad,Black,Stem borer,308,284,266,30.8,69.5,7.25,145.4,maize,4.38,19700
+Karnataka,Hubballi,Laterite,Leaf rust,332,291,308,22.5,81.8,6.15,165.5,coffee,6.6,72000
+Uttar Pradesh,Agra,Alluvial,Stem borer,327,286,288,31.5,76.2,7.0,155.1,sugarcane,9.0,53000
+West Bengal,Nadia,Alluvial,Brown planthopper,308,264,154,59.6,118.8,9.25,598.9,rice,8.15,42750
+Punjab,Amritsar,Alluvial,Aphids,336,266,153,38.6,106.7,9.38,265.2,wheat,7.2,38000
+Maharashtra,Kolhapur,Black,Stem borer,310,288,268,29.3,66.1,7.12,132.7,maize,4.4,19800
+Karnataka,Ballari,Laterite,Leaf rust,334,293,310,21.8,80.5,6.02,158.2,coffee,6.65,73000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,329,290,292,30.5,73.8,6.88,147.3,sugarcane,9.05,53250
+West Bengal,Purulia,Alluvial,Brown planthopper,312,268,155,59.9,119.1,9.28,602.4,rice,8.2,43000
+Punjab,Ludhiana,Alluvial,Aphids,338,270,154,38.8,107.1,9.4,266.9,wheat,7.25,38250
+Maharashtra,Jalgaon,Black,Stem borer,314,292,272,29.9,67.3,7.18,138.6,maize,4.42,19900
+Karnataka,Shivamogga,Laterite,Leaf rust,336,295,312,22.3,81.5,6.12,162.7,coffee,6.7,73500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,331,294,294,31.3,75.7,6.95,152.4,sugarcane,9.1,53500
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,316,272,156,60.2,119.4,9.3,605.9,rice,8.25,43250
+Punjab,Jalandhar,Alluvial,Aphids,340,274,155,39.0,107.5,9.42,268.6,wheat,7.3,38500
+Maharashtra,Satara,Black,Stem borer,318,296,276,30.1,69.2,7.22,142.9,maize,4.45,20000
+Karnataka,Chikmagalur,Laterite,Leaf rust,338,297,314,22.8,82.1,6.18,167.8,coffee,6.75,74000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,333,298,298,31.7,76.5,7.05,156.2,sugarcane,9.15,53750
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,320,276,157,60.5,119.7,9.32,609.4,rice,8.3,43500
+Punjab,Bathinda,Alluvial,Aphids,342,278,156,39.2,107.9,9.45,270.3,wheat,7.35,38750
+Maharashtra,Solapur,Black,Stem borer,322,300,280,31.1,69.8,7.28,147.7,maize,4.48,20100
+Karnataka,Kodagu,Laterite,Leaf rust,340,299,316,23.1,82.4,6.2,169.9,coffee,6.8,74500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,335,302,302,31.9,76.9,7.1,158.4,sugarcane,9.2,54000
+West Bengal,Hooghly,Alluvial,Brown planthopper,324,280,158,60.8,120.0,9.35,612.9,rice,8.35,43750
+Punjab,Pathankot,Alluvial,Aphids,344,282,157,39.4,108.3,9.48,272.0,wheat,7.4,39000
+Maharashtra,Thane,Black,Stem borer,326,304,284,31.4,70.2,7.3,149.8,maize,4.5,20200
+Karnataka,Hassan,Laterite,Leaf rust,342,301,318,23.8,82.7,6.25,172.5,coffee,6.85,75000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,337,306,306,32.1,77.3,7.15,160.1,sugarcane,9.25,54250
+West Bengal,Nadia,Alluvial,Brown planthopper,328,284,159,61.1,120.3,9.38,616.4,rice,8.4,44000
+Punjab,Hoshiarpur,Alluvial,Aphids,346,308,158,39.6,108.7,9.5,273.7,wheat,7.45,39250
+Maharashtra,Pune,Black,Stem borer,330,310,288,29.1,65.8,7.1,130.4,maize,4.52,20300
+Karnataka,Bengaluru,Laterite,Leaf rust,344,303,320,21.5,80.1,6.0,155.6,coffee,6.9,75500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,339,312,312,30.2,72.3,6.8,145.7,sugarcane,9.3,54500
+West Bengal,Purulia,Alluvial,Brown planthopper,332,314,160,61.4,120.6,9.4,619.9,rice,8.45,44250
+Punjab,Rupnagar,Alluvial,Aphids,348,316,159,39.8,109.1,9.52,275.4,wheat,7.5,39500
+Maharashtra,Nagpur,Black,Stem borer,334,318,292,30.5,68.9,7.2,140.2,maize,4.55,20400
+Karnataka,Mysuru,Laterite,Leaf rust,346,319,324,22.1,81.2,6.1,160.8,coffee,6.95,76000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,341,320,320,31.1,75.1,6.9,150.9,sugarcane,9.35,54750
+West Bengal,Hooghly,Alluvial,Brown planthopper,336,322,161,61.7,120.9,9.42,623.4,rice,8.5,44500
+Punjab,Firozpur,Alluvial,Aphids,350,324,160,40.0,109.5,9.55,277.1,wheat,7.55,39750
+Maharashtra,Nashik,Black,Stem borer,338,326,296,29.4,66.5,7.15,135.8,maize,4.58,20500
+Karnataka,Mangaluru,Laterite,Leaf rust,348,328,328,23.5,82.8,6.05,170.3,coffee,7.0,76500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,343,330,328,30.8,74.5,6.85,148.2,sugarcane,9.4,55000
+West Bengal,Howrah,Alluvial,Brown planthopper,340,332,162,62.0,121.2,9.45,626.9,rice,8.55,44750
+Punjab,Bathinda,Alluvial,Aphids,352,334,161,40.2,109.9,9.58,278.8,wheat,7.6,40000
+Maharashtra,Aurangabad,Black,Stem borer,342,336,300,30.8,69.5,7.25,145.4,maize,4.6,20600
+Karnataka,Hubballi,Laterite,Leaf rust,350,338,332,22.5,81.8,6.15,165.5,coffee,7.05,77000
+Uttar Pradesh,Agra,Alluvial,Stem borer,345,340,332,31.5,76.2,7.0,155.1,sugarcane,9.45,55250
+West Bengal,Nadia,Alluvial,Brown planthopper,344,342,163,62.3,121.5,9.48,630.4,rice,8.6,45000
+Punjab,Amritsar,Alluvial,Aphids,354,344,162,40.4,110.3,9.6,280.5,wheat,7.65,40250
+Maharashtra,Kolhapur,Black,Stem borer,346,346,304,29.3,66.1,7.12,132.7,maize,4.62,20700
+Karnataka,Ballari,Laterite,Leaf rust,352,348,336,21.8,80.5,6.02,158.2,coffee,7.1,77500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,349,350,336,30.5,73.8,6.88,147.3,sugarcane,9.5,55500
+West Bengal,Purulia,Alluvial,Brown planthopper,348,352,164,62.6,121.8,9.5,633.9,rice,8.65,45250
+Punjab,Ludhiana,Alluvial,Aphids,356,354,163,40.6,110.7,9.62,282.2,wheat,7.7,40500
+Maharashtra,Jalgaon,Black,Stem borer,350,356,308,29.9,67.3,7.18,138.6,maize,4.65,20800
+Karnataka,Shivamogga,Laterite,Leaf rust,354,358,340,22.3,81.5,6.12,162.7,coffee,7.15,78000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,351,360,340,31.3,75.7,6.95,152.4,sugarcane,9.55,55750
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,352,362,165,62.9,122.1,9.52,637.4,rice,8.7,45500
+Punjab,Jalandhar,Alluvial,Aphids,358,364,164,40.8,111.1,9.65,283.9,wheat,7.75,40750
+Maharashtra,Satara,Black,Stem borer,354,366,312,30.1,69.2,7.22,142.9,maize,4.68,20900
+Karnataka,Chikmagalur,Laterite,Leaf rust,356,368,344,22.8,82.1,6.18,167.8,coffee,7.2,78500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,353,370,344,31.7,76.5,7.05,156.2,sugarcane,9.6,56000
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,358,372,166,63.2,122.4,9.55,640.9,rice,8.75,45750
+Punjab,Bathinda,Alluvial,Aphids,360,374,165,41.0,111.5,9.68,285.6,wheat,7.8,41000
+Maharashtra,Solapur,Black,Stem borer,360,376,316,31.1,69.8,7.28,147.7,maize,4.7,21000
+Karnataka,Kodagu,Laterite,Leaf rust,362,378,348,23.1,82.4,6.2,169.9,coffee,7.25,79000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,365,380,348,31.9,76.9,7.1,158.4,sugarcane,9.65,56250
+West Bengal,Hooghly,Alluvial,Brown planthopper,364,382,168,63.5,122.7,9.58,644.4,rice,8.8,46000
+Punjab,Pathankot,Alluvial,Aphids,366,384,167,41.2,111.9,9.7,287.3,wheat,7.85,41250
+Maharashtra,Thane,Black,Stem borer,368,386,320,31.4,70.2,7.3,149.8,maize,4.72,21100
+Karnataka,Hassan,Laterite,Leaf rust,370,388,352,23.8,82.7,6.25,172.5,coffee,7.3,79500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,371,390,352,32.1,77.3,7.15,160.1,sugarcane,9.7,56500
+West Bengal,Nadia,Alluvial,Brown planthopper,372,392,170,63.8,123.0,9.6,647.9,rice,8.85,46250
+Punjab,Hoshiarpur,Alluvial,Aphids,374,394,169,41.4,112.3,9.72,289.0,wheat,7.9,41500
+Maharashtra,Pune,Black,Stem borer,376,396,324,29.1,65.8,7.1,130.4,maize,4.75,21200
+Karnataka,Bengaluru,Laterite,Leaf rust,378,398,356,21.5,80.1,6.0,155.6,coffee,7.35,80000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,379,400,356,30.2,72.3,6.8,145.7,sugarcane,9.75,56750
+West Bengal,Purulia,Alluvial,Brown planthopper,380,402,172,64.1,123.3,9.62,651.4,rice,8.9,46500
+Punjab,Rupnagar,Alluvial,Aphids,382,404,171,41.6,112.7,9.75,290.7,wheat,7.95,41750
+Maharashtra,Nagpur,Black,Stem borer,384,406,328,30.5,68.9,7.2,140.2,maize,4.78,21300
+Karnataka,Mysuru,Laterite,Leaf rust,386,408,360,22.1,81.2,6.1,160.8,coffee,7.4,80500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,387,410,360,31.1,75.1,6.9,150.9,sugarcane,9.8,57000
+West Bengal,Hooghly,Alluvial,Brown planthopper,388,412,174,64.4,123.6,9.65,654.9,rice,8.95,46750
+Punjab,Firozpur,Alluvial,Aphids,390,414,173,41.8,113.1,9.78,292.4,wheat,8.0,42000
+Maharashtra,Nashik,Black,Stem borer,392,416,332,29.4,66.5,7.15,135.8,maize,4.8,21400
+Karnataka,Mangaluru,Laterite,Leaf rust,394,418,364,23.5,82.8,6.05,170.3,coffee,7.45,81000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,395,420,364,30.8,74.5,6.85,148.2,sugarcane,9.85,57250
+West Bengal,Howrah,Alluvial,Brown planthopper,396,422,176,64.7,123.9,9.68,658.4,rice,9.0,47000
+Punjab,Bathinda,Alluvial,Aphids,398,424,175,42.0,113.5,9.8,294.1,wheat,8.05,42250
+Maharashtra,Aurangabad,Black,Stem borer,400,426,336,30.8,69.5,7.25,145.4,maize,4.82,21500
+Karnataka,Hubballi,Laterite,Leaf rust,402,428,368,22.5,81.8,6.15,165.5,coffee,7.5,81500
+Uttar Pradesh,Agra,Alluvial,Stem borer,403,430,368,31.5,76.2,7.0,155.1,sugarcane,9.9,57500
+West Bengal,Nadia,Alluvial,Brown planthopper,404,432,178,65.0,124.2,9.7,661.9,rice,9.05,47250
+Punjab,Amritsar,Alluvial,Aphids,406,434,177,42.2,113.9,9.82,295.8,wheat,8.1,42500
+Maharashtra,Kolhapur,Black,Stem borer,408,436,340,29.3,66.1,7.12,132.7,maize,4.85,21600
+Karnataka,Ballari,Laterite,Leaf rust,410,438,372,21.8,80.5,6.02,158.2,coffee,7.55,82000
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,411,440,372,30.5,73.8,6.88,147.3,sugarcane,9.95,57750
+West Bengal,Purulia,Alluvial,Brown planthopper,412,442,180,65.3,124.5,9.72,665.4,rice,9.1,47500
+Punjab,Ludhiana,Alluvial,Aphids,414,444,179,42.4,114.3,9.85,297.5,wheat,8.15,42750
+Maharashtra,Jalgaon,Black,Stem borer,416,446,344,29.9,67.3,7.18,138.6,maize,4.88,21700
+Karnataka,Shivamogga,Laterite,Leaf rust,418,448,376,22.3,81.5,6.12,162.7,coffee,7.6,82500
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,419,450,376,31.3,75.7,6.95,152.4,sugarcane,10.0,58000
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,420,452,182,65.6,124.8,9.75,668.9,rice,9.15,47750
+Punjab,Jalandhar,Alluvial,Aphids,422,454,181,42.6,114.7,9.88,299.2,wheat,8.2,43000
+Maharashtra,Satara,Black,Stem borer,424,456,348,30.1,69.2,7.22,142.9,maize,4.9,21800
+Karnataka,Chikmagalur,Laterite,Leaf rust,426,458,380,22.8,82.1,6.18,167.8,coffee,7.65,83000
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,427,460,380,31.7,76.5,7.05,156.2,sugarcane,10.05,58250
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,428,462,184,65.9,125.1,9.78,672.4,rice,9.2,48000
+Punjab,Bathinda,Alluvial,Aphids,430,464,183,42.8,115.1,9.9,300.9,wheat,8.25,43250
+Maharashtra,Solapur,Black,Stem borer,432,466,352,31.1,69.8,7.28,147.7,maize,4.92,21900
+Karnataka,Kodagu,Laterite,Leaf rust,434,468,384,23.1,82.4,6.2,169.9,coffee,7.7,83500
+Uttar Pradesh,Meerut,Alluvial,Stem borer,435,470,384,31.9,76.9,7.1,158.4,sugarcane,10.1,58500
+West Bengal,Hooghly,Alluvial,Brown planthopper,436,472,186,66.2,125.4,9.8,675.9,rice,9.25,48250
+Punjab,Pathankot,Alluvial,Aphids,438,474,185,43.0,115.5,9.92,302.6,wheat,8.3,43500
+Maharashtra,Thane,Black,Stem borer,440,476,356,31.4,70.2,7.3,149.8,maize,4.95,22000
+Karnataka,Hassan,Laterite,Leaf rust,442,478,388,23.8,82.7,6.25,172.5,coffee,7.75,84000
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,443,480,388,32.1,77.3,7.15,160.1,sugarcane,10.15,58750
+West Bengal,Nadia,Alluvial,Brown planthopper,444,482,188,66.5,125.7,9.82,679.4,rice,9.3,48500
+Punjab,Hoshiarpur,Alluvial,Aphids,446,484,187,43.2,115.9,9.95,304.3,wheat,8.35,43750
+Maharashtra,Pune,Black,Stem borer,448,486,392,29.1,65.8,7.1,130.4,maize,4.98,22100
+Karnataka,Bengaluru,Laterite,Leaf rust,450,488,392,21.5,80.1,6.0,155.6,coffee,7.8,84500
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,451,490,392,30.2,72.3,6.8,145.7,sugarcane,10.2,59000
+West Bengal,Purulia,Alluvial,Brown planthopper,452,492,190,66.8,126.0,9.85,682.9,rice,9.35,48750
+Punjab,Rupnagar,Alluvial,Aphids,454,494,189,43.4,116.3,9.98,306.0,wheat,8.4,44000
+Maharashtra,Nagpur,Black,Stem borer,456,496,396,30.5,68.9,7.2,140.2,maize,5.0,22200
+Karnataka,Mysuru,Laterite,Leaf rust,458,498,396,22.1,81.2,6.1,160.8,coffee,7.85,85000
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,459,500,396,31.1,75.1,6.9,150.9,sugarcane,10.25,59250
+West Bengal,Hooghly,Alluvial,Brown planthopper,460,502,192,67.1,126.3,9.88,686.4,rice,9.4,49000
+Punjab,Firozpur,Alluvial,Aphids,462,504,191,43.6,116.7,10.0,307.7,wheat,8.45,44250
+Maharashtra,Nashik,Black,Stem borer,464,506,400,29.4,66.5,7.15,135.8,maize,5.02,22300
+Karnataka,Mangaluru,Laterite,Leaf rust,466,508,400,23.5,82.8,6.05,170.3,coffee,7.9,85500
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,467,510,400,30.8,74.5,6.85,148.2,sugarcane,10.3,59500
+West Bengal,Howrah,Alluvial,Brown planthopper,468,512,194,67.4,126.6,9.9,689.9,rice,9.45,49250
+Punjab,Bathinda,Alluvial,Aphids,470,514,193,43.8,117.1,10.02,309.4,wheat,8.5,44500
+Maharashtra,Aurangabad,Black,Stem borer,472,516,404,30.8,69.5,7.25,145.4,maize,5.05,22400
+Karnataka,Hubballi,Laterite,Leaf rust,474,518,404,22.5,81.8,6.15,165.5,coffee,7.95,86000
+Uttar Pradesh,Agra,Alluvial,Stem borer,475,520,404,31.5,76.2,7.0,155.1,sugarcane,10.35,59750
+West Bengal,Nadia,Alluvial,Brown planthopper,476,522,196,67.7,126.9,9.92,693.4,rice,9.5,49500
+Punjab,Amritsar,Alluvial,Aphids,478,524,195,44.0,117.5,10.05,311.1,wheat,8.55,44750
+Maharashtra,Kolhapur,Black,Stem borer,480,526,408,29.3,66.1,7.12,132.7,maize,5.08,22500
+Karnataka,Ballari,Laterite,Leaf rust,482,528,408,21.8,80.5,6.02,158.2,coffee,8.0,86500
+Uttar Pradesh,Allahabad,Alluvial,Stem borer,483,530,408,30.5,73.8,6.88,147.3,sugarcane,10.4,60000
+West Bengal,Purulia,Alluvial,Brown planthopper,484,532,198,68.0,127.2,9.95,696.9,rice,9.55,49750
+Punjab,Ludhiana,Alluvial,Aphids,486,534,197,44.2,117.9,10.08,312.8,wheat,8.6,45000
+Maharashtra,Jalgaon,Black,Stem borer,488,536,412,29.9,67.3,7.18,138.6,maize,5.1,22600
+Karnataka,Shivamogga,Laterite,Leaf rust,490,538,412,22.3,81.5,6.12,162.7,coffee,8.05,87000
+Uttar Pradesh,Moradabad,Alluvial,Stem borer,491,540,412,31.3,75.7,6.95,152.4,sugarcane,10.45,60250
+West Bengal,Cooch Behar,Alluvial,Brown planthopper,492,542,200,68.3,127.5,9.98,700.4,rice,9.6,50000
+Punjab,Jalandhar,Alluvial,Aphids,494,544,199,44.4,118.3,10.1,314.5,wheat,8.65,45250
+Maharashtra,Satara,Black,Stem borer,496,546,416,30.1,69.2,7.22,142.9,maize,5.12,22700
+Karnataka,Chikmagalur,Laterite,Leaf rust,498,548,416,22.8,82.1,6.18,167.8,coffee,8.1,87500
+Uttar Pradesh,Ghaziabad,Alluvial,Stem borer,499,550,416,31.7,76.5,7.05,156.2,sugarcane,10.5,60500
+West Bengal,Jalpaiguri,Laterite,Brown planthopper,500,552,202,68.6,127.8,10.0,703.9,rice,9.65,50250
+Punjab,Bathinda,Alluvial,Aphids,502,554,201,44.6,118.7,10.12,316.2,wheat,8.7,45500
+Maharashtra,Solapur,Black,Stem borer,504,556,420,31.1,69.8,7.28,147.7,maize,5.15,22800
+Karnataka,Kodagu,Laterite,Leaf rust,506,558,420,23.1,82.4,6.2,169.9,coffee,8.15,88000
+Uttar Pradesh,Meerut,Alluvial,Stem borer,507,560,420,31.9,76.9,7.1,158.4,sugarcane,10.55,60750
+West Bengal,Hooghly,Alluvial,Brown planthopper,508,562,204,68.9,128.1,10.02,707.4,rice,9.7,50500
+Punjab,Pathankot,Alluvial,Aphids,510,564,203,44.8,119.1,10.15,317.9,wheat,8.75,45750
+Maharashtra,Thane,Black,Stem borer,512,566,424,31.4,70.2,7.3,149.8,maize,5.18,22900
+Karnataka,Hassan,Laterite,Leaf rust,514,568,424,23.8,82.7,6.25,172.5,coffee,8.2,88500
+Uttar Pradesh,Bulandshahr,Alluvial,Stem borer,515,570,424,32.1,77.3,7.15,160.1,sugarcane,10.6,61000
+West Bengal,Nadia,Alluvial,Brown planthopper,516,572,206,69.2,128.4,10.05,710.9,rice,9.75,50750
+Punjab,Hoshiarpur,Alluvial,Aphids,518,574,205,45.0,119.5,10.18,319.6,wheat,8.8,46000
+Maharashtra,Pune,Black,Stem borer,520,576,428,29.1,65.8,7.1,130.4,maize,5.2,23000
+Karnataka,Bengaluru,Laterite,Leaf rust,522,578,428,21.5,80.1,6.0,155.6,coffee,8.25,89000
+Uttar Pradesh,Lucknow,Alluvial,Stem borer,523,580,428,30.2,72.3,6.8,145.7,sugarcane,10.65,61250
+West Bengal,Purulia,Alluvial,Brown planthopper,524,582,208,69.5,128.7,10.08,714.4,rice,9.8,51000
+Punjab,Rupnagar,Alluvial,Aphids,526,584,207,45.2,119.9,10.2,321.3,wheat,8.85,46250
+Maharashtra,Nagpur,Black,Stem borer,528,586,432,30.5,68.9,7.2,140.2,maize,5.22,23100
+Karnataka,Mysuru,Laterite,Leaf rust,530,588,432,22.1,81.2,6.1,160.8,coffee,8.3,89500
+Uttar Pradesh,Kanpur,Alluvial,Stem borer,531,590,432,31.1,75.1,6.9,150.9,sugarcane,10.7,61500
+West Bengal,Hooghly,Alluvial,Brown planthopper,532,592,210,69.8,129.0,10.1,717.9,rice,9.85,51250
+Punjab,Firozpur,Alluvial,Aphids,534,594,209,45.4,120.3,10.22,323.0,wheat,8.9,46500
+Maharashtra,Nashik,Black,Stem borer,536,596,436,29.4,66.5,7.15,135.8,maize,5.25,23200
+Karnataka,Mangaluru,Laterite,Leaf rust,538,598,436,23.5,82.8,6.05,170.3,coffee,8.35,90000
+Uttar Pradesh,Varanasi,Alluvial,Stem borer,539,600,436,30.8,74.5,6.85,148.2,sugarcane,10.75,61750
+West Bengal,Howrah,Alluvial,Brown planthopper,540,602,212,70.1,129.3,10.12,721.4,rice,9.9,51500
+Punjab,Bathinda,Alluvial,Aphids,542,604,211,45.6,120.7,10.25,324.7,wheat,8.95,46750
+Maharashtra,Aurangabad,Black,Stem borer,544,606,440,30.8,69.5,7.25,145.4,maize,5.28,23300
+Karnataka,Hubballi,Laterite,Leaf rust,546,608,440,22.5,81.8,6.15,165.5,coffee,8.4,90500
+Uttar Pradesh,Agra,Alluvial,Stem borer,547,610,440,31.5,76.2,7.0,155.1,sugarcane,10.8,62000
+West Bengal,Nadia,Alluvial,Brown planthopper,548,612,214,70.4,129.6,10.15,724.9,rice,9.95,51750
+Punjab,Amritsar,Alluvial,Aphids,550,614,213,45.8,121.1,10.28,326.4,wheat,9.0,47000

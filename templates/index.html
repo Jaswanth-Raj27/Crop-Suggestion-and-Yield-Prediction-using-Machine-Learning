@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop & Yield Predictor 🌾</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #a8edea, #fed6e3);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px 40px;
+      width: 550px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    h1 {
+      text-align: center;
+      color: #007b5e;
+      margin-bottom: 20px;
+    }
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    input, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    button {
+      grid-column: span 2;
+      background-color: #007b5e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #009c7a;
+    }
+    .result {
+      margin-top: 20px;
+      text-align: center;
+      padding: 15px;
+      background: #e6f9ef;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+    .error {
+      color: red;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 Crop & Yield Predictor</h1>
+    <form action="/predict" method="POST">
+      <input type="number" step="any" name="N" placeholder="Nitrogen (N)" required>
+      <input type="number" step="any" name="P" placeholder="Phosphorus (P)" required>
+      <input type="number" step="any" name="K" placeholder="Potassium (K)" required>
+      <input type="number" step="any" name="temperature" placeholder="Temperature (°C)" required>
+      <input type="number" step="any" name="humidity" placeholder="Humidity (%)" required>
+      <input type="number" step="any" name="ph" placeholder="Soil pH" required>
+      <input type="number" step="any" name="rainfall" placeholder="Rainfall (mm)" required>
+      <input type="text" name="state" placeholder="State" required>
+      <input type="text" name="district" placeholder="District" required>
+      <input type="text" name="soil_type" placeholder="Soil Type" required>
+      <input type="text" name="pest_problem" placeholder="Pest Problem" required>
+      <button type="submit">Predict Crop & Yield</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+      <p><strong>Recommended Crop:</strong> {{ prediction.crop }}</p>
+      <p><strong>Estimated Yield:</strong> {{ prediction.yield }}</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+  </div>
+</body>
+</html>
