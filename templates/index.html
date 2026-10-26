@@ -1,101 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crop & Yield Predictor 🌾</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(120deg, #a8edea, #fed6e3);
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      background: #fff;
-      border-radius: 15px;
-      padding: 30px 40px;
-      width: 550px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    }
-    h1 {
-      text-align: center;
-      color: #007b5e;
-      margin-bottom: 20px;
-    }
-    form {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 15px;
-    }
-    input, select {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 14px;
-    }
-    button {
-      grid-column: span 2;
-      background-color: #007b5e;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      padding: 12px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    button:hover {
-      background-color: #009c7a;
-    }
-    .result {
-      margin-top: 20px;
-      text-align: center;
-      padding: 15px;
-      background: #e6f9ef;
-      border-radius: 10px;
-      font-size: 18px;
-    }
-    .error {
-      color: red;
-      text-align: center;
-      margin-top: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>🌾 Crop & Yield Predictor</h1>
-    <form action="/predict" method="POST">
-      <input type="number" step="any" name="N" placeholder="Nitrogen (N)" required>
-      <input type="number" step="any" name="P" placeholder="Phosphorus (P)" required>
-      <input type="number" step="any" name="K" placeholder="Potassium (K)" required>
-      <input type="number" step="any" name="temperature" placeholder="Temperature (°C)" required>
-      <input type="number" step="any" name="humidity" placeholder="Humidity (%)" required>
-      <input type="number" step="any" name="ph" placeholder="Soil pH" required>
-      <input type="number" step="any" name="rainfall" placeholder="Rainfall (mm)" required>
-      <input type="text" name="state" placeholder="State" required>
-      <input type="text" name="district" placeholder="District" required>
-      <input type="text" name="soil_type" placeholder="Soil Type" required>
-      <input type="text" name="pest_problem" placeholder="Pest Problem" required>
-      <button type="submit">Predict Crop & Yield</button>
-    </form>
-
-    {% if prediction %}
-    <div class="result">
-      <p><strong>Recommended Crop:</strong> {{ prediction.crop }}</p>
-      <p><strong>Estimated Yield:</strong> {{ prediction.yield }}</p>
-    </div>
-    {% endif %}
-
-    {% if error %}
-    <p class="error">{{ error }}</p>
-    {% endif %}
+{% extends "base.html" %}
+{% block title %}Crop &amp; Yield Predictor — Fieldnote{% endblock %}
+{% block content %}
+<section class="home-photo-hero" aria-labelledby="home-title">
+  <img class="home-photo-hero__image" src="{{ url_for('static', filename='images/crops/wheat-field-jpg.jpg') }}" alt="Wheat growing across a field in Haryana" fetchpriority="high">
+  <div class="home-photo-hero__shade" aria-hidden="true"></div>
+  <div class="home-photo-hero__content">
+    <div class="hero-kicker">Fieldnote <span aria-hidden="true">/</span> Crop &amp; yield explorer</div>
+    <h1 id="home-title">A closer look at what grows.</h1>
+    <p>Explore an experimental crop model, then follow real national yield records through time.</p>
+    <a class="hero-action" href="#predictor">Explore growing conditions <span aria-hidden="true">↓</span></a>
   </div>
-</body>
-</html>
+  <a class="photo-credit photo-credit--single" href="https://commons.wikimedia.org/wiki/File:Wheat_fields_IN_Haryana.jpg" target="_blank" rel="noreferrer">Wheat field · Haryana <span>Aman Rania · CC0 ↗</span></a>
+</section>
+
+<aside class="model-notice" aria-label="Model data notice">
+  <span class="notice-mark" aria-hidden="true">i</span>
+  <span><strong>Experimental model</strong> Predictions use synthetic data and have not been validated for farming decisions.</span>
+</aside>
+
+{% if setup_error %}<div class="alert" role="status"><span class="alert-icon" aria-hidden="true">i</span><span>{{ setup_error }}</span></div>{% endif %}
+{% if error %}<div class="alert alert-error" role="alert"><span class="alert-icon" aria-hidden="true">!</span><span>{{ error }}</span></div>{% endif %}
+{% if prediction %}
+<section class="prediction-card" aria-live="polite">
+  <div class="prediction-item"><small>Experimental crop suggestion</small><strong>{{ prediction.crop }}</strong></div>
+  <div class="prediction-item"><small>Latest India yield record</small>
+    {% if prediction.yield_reference %}
+    <strong>{{ prediction.yield_reference.value }}</strong>
+    <span>{{ prediction.yield_reference.year }} · {{ prediction.yield_reference.status }}</span>
+    {% else %}<strong>No matching record</strong>{% endif %}
+  </div>
+  <div class="result-caption">The crop suggestion uses synthetic demo data. Yield is a national historical reference, not a field-specific forecast.</div>
+</section>
+{% endif %}
+
+<section class="surface form-surface" id="predictor">
+  <div class="section-heading">
+    <span><h2>Growing conditions</h2><p>Enter the available soil, climate, and location details.</p></span>
+  </div>
+  <form action="{{ url_for('predict_route') }}" method="post">
+    <div class="field-grid">
+      {% for name, label, minimum, maximum, hint in [
+        ('N', 'Nitrogen', 0, 2000, 'N · soil nutrient'),
+        ('P', 'Phosphorus', 0, 2000, 'P · soil nutrient'),
+        ('K', 'Potassium', 0, 2000, 'K · soil nutrient'),
+        ('ph', 'Soil pH', 0, 14, 'Scale from 0 to 14'),
+        ('temperature', 'Temperature', -50, 70, 'Degrees Celsius'),
+        ('humidity', 'Humidity', 0, 100, 'Percent'),
+        ('rainfall', 'Rainfall', 0, 10000, 'Millimetres'),
+      ] %}
+      <div class="field">
+        <label for="{{ name }}">{{ label }}</label>
+        <input id="{{ name }}" type="number" step="any" min="{{ minimum }}" max="{{ maximum }}" name="{{ name }}" value="{{ values.get(name, '') }}" placeholder="Enter value" required>
+        <span class="field-hint">{{ hint }}</span>
+      </div>
+      {% endfor %}
+      {% for name, label in [('state', 'State'), ('district', 'District'), ('soil_type', 'Soil type'), ('pest_problem', 'Pest problem')] %}
+      <div class="field">
+        <label for="{{ name }}">{{ label }}</label>
+        <select id="{{ name }}" name="{{ name }}" required {% if not categories.get(name) %}disabled{% endif %}>
+          <option value="">Select {{ label|lower }}</option>
+          {% for option in categories.get(name, []) %}<option value="{{ option }}" {% if values.get(name) == option %}selected{% endif %}>{{ option }}</option>{% endfor %}
+        </select>
+        <span class="field-hint">Choose a value from the demo data</span>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="form-actions">
+      <p>Inputs are checked on the server. Unknown categories and out-of-range values are rejected.</p>
+      <button class="button-primary" type="submit" {% if setup_error %}disabled{% endif %}>Explore prediction <span aria-hidden="true">↗</span></button>
+    </div>
+  </form>
+</section>
+{% endblock %}

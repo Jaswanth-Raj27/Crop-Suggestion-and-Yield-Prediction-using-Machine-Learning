@@ -1,78 +1,179 @@
+"""Flask UI for the crop/yield demonstration model."""
+
+import json
+import logging
+from functools import lru_cache
+from pathlib import Path
+
 from flask import Flask, render_template, request
 import pandas as pd
-from Yield import (
-    load_and_preprocess_data,
-    train_and_evaluate_classifier,
-    train_and_evaluate_regressor
-)
+
+from modeling import InputValidationError, load_model_bundle, predict
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+HISTORY_PATH = Path(__file__).resolve().parent / "data" / "processed" / "india_faostat_crop_yield.csv"
+PREDICTION_CROP_ITEMS = {
+    "coffee": "Coffee, green",
+    "maize": "Maize (corn)",
+    "rice": "Rice",
+    "sugarcane": "Sugar cane",
+    "wheat": "Wheat",
+}
+YIELD_FLAGS = {
+    "A": "Official figure",
+    "E": "Estimated value",
+    "I": "Imputed by a receiving agency",
+    "M": "Missing value",
+    "X": "Figure from an external organization",
+}
 
-# Load models once
-file_path = "indian_agriculture_data.csv"
-
-X_train_cls, X_test_cls, y_train_cls, y_test_cls, label_encoder, all_features_cls = load_and_preprocess_data(
-    file_path, 'crop')
-classifier = train_and_evaluate_classifier(X_train_cls, X_test_cls, y_train_cls, y_test_cls)
-
-X_train_reg, X_test_reg, y_train_reg, y_test_reg, _, all_features_reg = load_and_preprocess_data(
-    file_path, 'yield_tons_per_acre')
-regressor, _, _, _ = train_and_evaluate_regressor(X_train_reg, X_test_reg, y_train_reg, y_test_reg)
+CROP_VISUALS_PATH = Path(__file__).resolve().parent / "data" / "crop_visuals.json"
 
 
-@app.route('/')
-def home():
-    return render_template('index.html', prediction=None)
+@lru_cache(maxsize=1)
+def get_crop_visuals():
+    """Return the exact-item visual allow-list and attribution metadata."""
+    return json.loads(CROP_VISUALS_PATH.read_text(encoding="utf-8-sig"))
 
 
-@app.route('/predict', methods=['POST'])
-def predict():
+def crop_visual_for(item):
+    """Return the dedicated visual configured for one FAOSTAT item."""
     try:
-        # Get form inputs
-        N = float(request.form['N'])
-        P = float(request.form['P'])
-        K = float(request.form['K'])
-        temperature = float(request.form['temperature'])
-        humidity = float(request.form['humidity'])
-        ph = float(request.form['ph'])
-        rainfall = float(request.form['rainfall'])
-        state = request.form['state']
-        district = request.form['district']
-        soil_type = request.form['soil_type']
-        pest_problem = request.form['pest_problem']
+        return get_crop_visuals()[item]
+    except KeyError as exc:
+        raise ValueError(f"No unique crop photo is configured for {item!r}.") from exc
 
-        new_data_point = {
-            'N': N, 'P': P, 'K': K,
-            'temperature': temperature, 'humidity': humidity, 'ph': ph, 'rainfall': rainfall,
-            'state': state, 'district': district, 'soil_type': soil_type, 'pest_problem': pest_problem
+
+@lru_cache(maxsize=1)
+def get_model_bundle():
+    return load_model_bundle()
+
+
+@lru_cache(maxsize=1)
+def get_india_yield_data():
+    return pd.read_csv(HISTORY_PATH)
+
+
+def latest_india_yield_reference(crop):
+    """Return the latest national historical record for a demo crop label."""
+    item = PREDICTION_CROP_ITEMS.get(str(crop).casefold())
+    if not item:
+        return None
+    data = get_india_yield_data()
+    rows = data.loc[data["Item"] == item].sort_values("Year", ascending=False)
+    if rows.empty:
+        return None
+    row = rows.iloc[0]
+    return {
+        "value": f"{float(row['Value']):,.1f} {row['Unit']}",
+        "year": int(row["Year"]),
+        "status": YIELD_FLAGS.get(row["Flag"], "See FAOSTAT flag metadata"),
+    }
+
+
+def render_page(*, prediction=None, error=None, values=None, status_code=200):
+    values = values or {}
+    setup_error = None
+    try:
+        bundle = get_model_bundle()
+        categories = bundle["category_values"]
+    except (FileNotFoundError, ValueError):
+        categories = {}
+        setup_error = "Prediction models are not ready. Run the documented training command, then restart the app."
+    response = render_template(
+        "index.html",
+        prediction=prediction,
+        error=error,
+        setup_error=setup_error,
+        values=values,
+        categories=categories,
+        active_page="predictor",
+    )
+    return response, status_code
+
+
+@app.route("/")
+def home():
+    return render_page()
+
+
+@app.route("/historical-yields")
+def historical_yields():
+    try:
+        data = get_india_yield_data()
+    except (FileNotFoundError, pd.errors.ParserError):
+        return render_template(
+            "history.html",
+            error="The historical data file is not available.",
+            items=[],
+            records=[],
+            selected_visual=crop_visual_for("Wheat"),
+        ), 503
+
+    items = sorted(data["Item"].dropna().unique().tolist())
+    selected_item = request.args.get("item", "Wheat")
+    if selected_item not in items:
+        selected_item = "Wheat" if "Wheat" in items else (items[0] if items else "")
+    selected = data.loc[data["Item"] == selected_item].sort_values("Year", ascending=False).head(20)
+    records = [
+        {
+            "year": int(row.Year),
+            "yield": f"{float(row.Value):,.1f}",
+            "unit": row.Unit,
+            "flag": row.Flag,
+            "flag_description": YIELD_FLAGS.get(row.Flag, "See FAOSTAT flag metadata"),
         }
-
-        new_data_df = pd.DataFrame([new_data_point])
-        processed_new_data_cls = pd.get_dummies(new_data_df, columns=['state', 'district', 'soil_type', 'pest_problem'])
-        final_new_data_cls = processed_new_data_cls.reindex(columns=all_features_cls, fill_value=0)
-
-        # Predict crop
-        prediction_encoded_cls = classifier.predict(final_new_data_cls)
-        predicted_crop = label_encoder.inverse_transform(prediction_encoded_cls)[0]
-
-        # Predict yield
-        new_data_df['crop'] = predicted_crop
-        processed_new_data_reg = pd.get_dummies(new_data_df,
-                                                columns=['state', 'district', 'soil_type', 'pest_problem', 'crop'])
-        final_new_data_reg = processed_new_data_reg.reindex(columns=all_features_reg, fill_value=0)
-
-        predicted_yield = regressor.predict(final_new_data_reg)[0]
-
-        result = {
-            "crop": predicted_crop,
-            "yield": f"{predicted_yield:.2f} tons per acre"
-        }
-
-        return render_template('index.html', prediction=result)
-
-    except Exception as e:
-        return render_template('index.html', error=str(e))
+        for row in selected.itertuples(index=False)
+    ]
+    return render_template(
+        "history.html",
+        error=None,
+        items=items,
+        selected_item=selected_item,
+        records=records,
+        item_count=len(items),
+        year_start=int(data["Year"].min()),
+        year_end=int(data["Year"].max()),
+        year_count=data["Year"].nunique(),
+        selected_visual=crop_visual_for(selected_item),
+        crop_visuals={item: crop_visual_for(item) for item in items},
+        active_page="history",
+    )
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route("/predict", methods=["POST"])
+def predict_route():
+    raw = {name: request.form.get(name, "") for name in (
+        "N", "P", "K", "temperature", "humidity", "ph", "rainfall",
+        "state", "district", "soil_type", "pest_problem",
+    )}
+    try:
+        bundle = get_model_bundle()
+    except (FileNotFoundError, ValueError):
+        return render_page(
+            error="Prediction models are not available yet. Please try again after setup is complete.",
+            values=raw,
+            status_code=503,
+        )
+    try:
+        result = predict(bundle, raw)
+        # The regressor is trained on synthetic demonstration data. Show the
+        # real India-wide FAOSTAT figure as context instead of presenting its
+        # synthetic estimate as an agricultural forecast.
+        result["yield_reference"] = latest_india_yield_reference(result["crop"])
+        return render_page(prediction=result)
+    except InputValidationError as exc:
+        return render_page(error=str(exc), values=raw, status_code=400)
+    except Exception:
+        logger.exception("Prediction request failed")
+        return render_page(
+            error="The prediction could not be completed. Please review your inputs and try again.",
+            values=raw,
+            status_code=500,
+        )
+
+
+if __name__ == "__main__":
+    app.run(debug=False)

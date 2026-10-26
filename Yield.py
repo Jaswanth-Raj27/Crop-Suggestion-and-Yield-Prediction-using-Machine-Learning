@@ -8,6 +8,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
+from feature_config import categorical_features_for
 
 
 def load_and_preprocess_data(file_path, target_label):
@@ -24,7 +25,7 @@ def load_and_preprocess_data(file_path, target_label):
         print("-" * 30)
 
         numerical_features = ['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']
-        categorical_features = ['state', 'district', 'soil_type', 'pest_problem']
+        categorical_features = categorical_features_for(target_label)
 
         X_numerical = data[numerical_features]
         X_categorical = pd.get_dummies(data[categorical_features])

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}India Yield History — Fieldnote{% endblock %}
+{% block content %}
+<section class="history-photo-hero" aria-labelledby="history-title">
+  <img class="history-photo-hero__image" id="crop-hero-image" src="{{ selected_visual.url }}" alt="{{ selected_visual.alt }}" fetchpriority="high">
+  <div class="history-photo-hero__shade" aria-hidden="true"></div>
+  <div class="history-photo-hero__content">
+    <div class="hero-kicker">India <span aria-hidden="true">/</span> FAOSTAT crop records</div>
+    <h1 id="history-title">Yield history,<br>in focus.</h1>
+    <p>Preview a representative field scene and explore the selected crop’s national yield record. Photos are visual context; the figures below are the historical data.</p>
+    <span class="source-pill source-pill--dark"><span id="hero-crop-label">{{ selected_item }}</span> <span aria-hidden="true">·</span> {{ year_start }}–{{ year_end }}</span>
+  </div>
+  <div class="photo-credit" id="crop-photo-credit">
+    <a href="{{ selected_visual.source_url }}" target="_blank" rel="noreferrer"><span id="crop-photo-title">{{ selected_visual.title }}</span> <span aria-hidden="true">↗</span></a>
+    <span id="crop-photo-creator">{{ selected_visual.credit }}</span>
+  </div>
+</section>
+
+{% if error %}<div class="alert alert-error" role="alert"><span class="alert-icon" aria-hidden="true">!</span><span>{{ error }}</span></div>{% endif %}
+
+{% if items %}
+<section class="stat-grid" aria-label="Dataset coverage">
+  <article class="stat-card"><span>Years covered</span><strong>{{ year_start }}–{{ year_end }}</strong></article>
+  <article class="stat-card"><span>Annual observations</span><strong>{{ year_count }}</strong></article>
+  <article class="stat-card"><span>Crop and item series</span><strong>{{ item_count }}</strong></article>
+</section>
+
+<section class="surface history-surface">
+  <div class="history-toolbar">
+    <div><div class="eyebrow">Yield series <span aria-hidden="true">·</span> India</div><h2>{{ selected_item }}</h2><p>Latest available records · displayed in kilograms per hectare</p></div>
+    <form class="history-filter" id="crop-filter" method="get" action="{{ url_for('historical_yields') }}">
+      <label for="item">Select crop or item
+        <select id="item" name="item">
+          {% for item in items %}<option value="{{ item }}" {% if selected_item == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+        </select>
+      </label>
+      <button class="button-secondary" type="submit">Update view</button>
+    </form>
+  </div>
+  <p class="crop-preview-status" id="crop-preview-status" aria-live="polite"></p>
+
+  {% if records %}
+  <div class="table-wrap" data-lenis-prevent>
+    <table class="history-table">
+      <thead><tr><th>Year</th><th>Yield</th><th>Source status</th></tr></thead>
+      <tbody>
+        {% for row in records %}
+        <tr>
+          <td>{{ row.year }}</td>
+          <td>{{ row.yield }} <span class="unit-label">{{ row.unit }}</span></td>
+          <td><span class="flag"><span class="flag-code">{{ row.flag }}</span>{{ row.flag_description }}</span></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}<p class="empty-state">No yield records were found for this item.</p>{% endif %}
+</section>
+
+<script id="crop-visual-map" type="application/json">{{ crop_visuals | tojson }}</script>
+
+<aside class="history-footnote"><strong>Reading the data</strong><span>FAOSTAT flags distinguish official figures (A), estimates (E), imputed values (I), missing observations (M), and values from external organizations (X). Yield is harvested product weight per hectare; fruits and vegetables can weigh more than dry-grain crops, so kg/ha is not a like-for-like measure of crop quality or profitability. Use the flag when interpreting each record.</span></aside>
+<p class="source-credit">Source: <a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT, Crops and livestock products (QCL)</a>, CC BY 4.0. Full attribution, archive details, and filtering notes are in <code>data/README.md</code>. FAO does not endorse this application.</p>
+{% endif %}
+{% endblock %}
