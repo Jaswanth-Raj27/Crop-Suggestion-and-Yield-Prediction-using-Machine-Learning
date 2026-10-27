@@ -18,9 +18,6 @@ Captured from the local Flask prototype. Crop suggestions use the synthetic demo
 |---|---|
 | ![Enter soil and weather inputs](docs/screenshots/input-form.jpg) | ![Illustrative synthetic-model crop suggestion](docs/screenshots/example-result.jpg) |
 
-| Historical wheat yields | Historical rice yields |
-|---|---|
-| ![India national wheat yield history](docs/screenshots/history-wheat.jpg) | ![India national rice yield history](docs/screenshots/history-rice.jpg) |
 
 <details>
 <summary>Mobile preview</summary>
@@ -29,7 +26,7 @@ Captured from the local Flask prototype. Crop suggestions use the synthetic demo
 
 </details>
 
-Photos visible in these UI captures: [Wheat fields IN Haryana](https://commons.wikimedia.org/wiki/File:Wheat_fields_IN_Haryana.jpg) by Aman Rania (CC0), and [Sunrise on paddy fields near Eluru (4)](https://commons.wikimedia.org/wiki/File:Sunrise_on_paddy_fields_near_Eluru_(4).jpg) by iMahesh ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). The app crops and overlays the photos; the rice-photo portion of its screenshots retains the same attribution and ShareAlike license.
+Photo visible in the remaining UI captures: [Wheat fields IN Haryana](https://commons.wikimedia.org/wiki/File:Wheat_fields_IN_Haryana.jpg) by Aman Rania (CC0). The app crops and overlays the photo.
 
 ## How the prototype works
 
