@@ -8,6 +8,29 @@ The bundled `indian_agriculture_data.csv` contains 742 examples across five crop
 
 For a decision-support application, replace the synthetic data with a documented, licensed dataset of measured agricultural observations. Record its source, collection period, geography, units, cleaning steps, and license, then evaluate on an independent holdout that reflects the locations and conditions where the app will be used.
 
+## Website screenshots
+
+Captured from the local Flask prototype. Crop suggestions use the synthetic demonstration model; historical-yield screens display the separate India-wide FAOSTAT records described above. These screens do not demonstrate validated field-level prediction.
+
+![Crop suggestion home page](docs/screenshots/home-desktop.jpg)
+
+| Soil and weather inputs | Example model result |
+|---|---|
+| ![Enter soil and weather inputs](docs/screenshots/input-form.jpg) | ![Illustrative synthetic-model crop suggestion](docs/screenshots/example-result.jpg) |
+
+| Historical wheat yields | Historical rice yields |
+|---|---|
+| ![India national wheat yield history](docs/screenshots/history-wheat.jpg) | ![India national rice yield history](docs/screenshots/history-rice.jpg) |
+
+<details>
+<summary>Mobile preview</summary>
+
+<img src="docs/screenshots/home-mobile.jpg" alt="Crop suggestion mobile home page" width="320">
+
+</details>
+
+Photos visible in these UI captures: [Wheat fields IN Haryana](https://commons.wikimedia.org/wiki/File:Wheat_fields_IN_Haryana.jpg) by Aman Rania (CC0), and [Sunrise on paddy fields near Eluru (4)](https://commons.wikimedia.org/wiki/File:Sunrise_on_paddy_fields_near_Eluru_(4).jpg) by iMahesh ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). The app crops and overlays the photos; the rice-photo portion of its screenshots retains the same attribution and ShareAlike license.
+
 ## How the prototype works
 
 1. A Random Forest classifier suggests one of five crop labels from N, P, K, temperature, humidity, pH, rainfall, state, district, soil type, and pest problem.
